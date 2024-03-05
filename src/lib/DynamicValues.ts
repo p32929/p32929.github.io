@@ -62,22 +62,22 @@ class DynamicValues {
                 {
                     title: "Aqary International Group",
                     desc: "Golang Developer",
-                    logo: "https://github.com/p32929/p32929.github.io/assets/6418354/92b039b2-9f42-4248-9803-b27e435d2d03"
+                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/92b039b2-9f42-4248-9803-b27e435d2d03"
                 },
                 {
                     title: "Horizon Group of Companies",
                     desc: "Front End Developer",
-                    logo: "https://github.com/p32929/p32929.github.io/assets/6418354/b385229a-3084-4952-84f3-134e627cc3e7"
+                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/b385229a-3084-4952-84f3-134e627cc3e7"
                 },
                 {
                     title: "6sense Bangladesh",
                     desc: "Full Stack Developer",
-                    logo: "https://github.com/p32929/p32929.github.io/assets/6418354/80aebbb6-456a-4bba-8f32-eb48373cf76d"
+                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/80aebbb6-456a-4bba-8f32-eb48373cf76d"
                 },
                 {
                     title: "Rich Information Technology",
                     desc: "Lead Software Engineer",
-                    logo: "https://github.com/p32929/p32929.github.io/assets/6418354/6b35eee6-669c-42ee-934b-d9555176490b"
+                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/6b35eee6-669c-42ee-934b-d9555176490b"
                 },
                 {
                     title: "Fiverr",
@@ -156,7 +156,7 @@ class DynamicValues {
                 },
                 {
                     title: 'SQL',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/ffeb437f-0d63-40e5-9bc3-041d5715d67e',
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/ffeb437f-0d63-40e5-9bc3-041d5715d67e',
                 },
                 {
                     title: "DynamoDB",
@@ -164,7 +164,7 @@ class DynamicValues {
                 },
                 {
                     title: "PostgreSQL",
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/b0b84cdf-ac60-4f7b-b665-99ea7e8854da'
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/b0b84cdf-ac60-4f7b-b665-99ea7e8854da'
                 },
             ]
         },
@@ -206,7 +206,7 @@ class DynamicValues {
                 },
                 {
                     title: 'ExpressJS',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/f38ec9f9-a921-4c96-8fb3-f2a598c1d0b4'
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/f38ec9f9-a921-4c96-8fb3-f2a598c1d0b4'
                 },
                 {
                     title: 'ReactJS',
@@ -214,7 +214,7 @@ class DynamicValues {
                 },
                 {
                     title: 'Redux',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/77226ad4-1e3a-46ac-b287-e41ee5b5fec7'
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/77226ad4-1e3a-46ac-b287-e41ee5b5fec7'
                 },
                 {
                     title: 'React Native',
@@ -234,7 +234,7 @@ class DynamicValues {
                 },
                 {
                     title: 'NextJS',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/1b988896-5ab2-42b4-a4f3-153d42c6488c'
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/1b988896-5ab2-42b4-a4f3-153d42c6488c'
                 },
                 {
                     title: 'OpenCV',
@@ -270,7 +270,7 @@ class DynamicValues {
                 },
                 {
                     title: 'Matplotlib',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/f5e59574-2fee-4ef3-86f6-31a331065f60'
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/f5e59574-2fee-4ef3-86f6-31a331065f60'
                 },
                 {
                     title: 'Socket.io',
@@ -278,7 +278,7 @@ class DynamicValues {
                 },
                 {
                     title: 'Flask',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/2183bb2b-7680-49f1-a626-b1f647e7d656'
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/2183bb2b-7680-49f1-a626-b1f647e7d656'
                 },
                 {
                     title: 'Docker',
@@ -424,7 +424,7 @@ class DynamicValues {
                 },
                 {
                     title: "BreakingMars",
-                    logo: "https://github.com/p32929/p32929.github.io/assets/6418354/8b6c5a1c-fc31-44a8-822e-73814ff57ac3",
+                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/8b6c5a1c-fc31-44a8-822e-73814ff57ac3",
                     desc: '#1 Leading & Effortless Prospect Perceiving Platform',
                     link: "https://web.archive.org/web/20220413085335/https://www.breakingmars.com/"
                 },
@@ -646,13 +646,13 @@ class DynamicValues {
             arr: [
                 {
                     title: 'Dingtone Bot',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/f24e64e7-ef7a-4d2d-a7d9-55f4797043cf',
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/f24e64e7-ef7a-4d2d-a7d9-55f4797043cf',
                     desc: 'A bot made using Python and UIAutomator2 to automate watching ads on certain apps to get credits',
                     link: 'https://drive.google.com/file/d/159D_tco3qkpgh2a3CWz-f0ixPEpeUN8V/view?usp=sharing'
                 },
                 {
                     title: 'Indeed-Linkedin bot',
-                    logo: 'https://github.com/p32929/p32929.github.io/assets/6418354/f24e64e7-ef7a-4d2d-a7d9-55f4797043cf',
+                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/f24e64e7-ef7a-4d2d-a7d9-55f4797043cf',
                     desc: 'An automation bot created using playwright to automate applying jobs on Indeed and Linkedin',
                     link: 'https://drive.google.com/file/d/10Xc4Y0Z5KXxKhb9StF3bQfivYHHeNZsa/view?usp=sharing',
                 }
@@ -861,7 +861,7 @@ class DynamicValues {
                 },
                 {
                     title: "UVA Online Judge",
-                    logo: "https://github.com/p32929/p32929.github.io/assets/6418354/5e21914b-9dfd-4394-bfa3-d2e216e8ce39",
+                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/5e21914b-9dfd-4394-bfa3-d2e216e8ce39",
                     link: "https://uhunt.onlinejudge.org/id/590978"
                 },
                 {
