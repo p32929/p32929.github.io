@@ -13,14 +13,21 @@ interface Props {
 }
 
 const SectionName: React.FC<Props> = (props) => {
+  const onPrevClicked = () => {
+    scrollToView(`section-${getPrevSectionName().toLowerCase()}`);
+  }
   const onNextClicked = () => {
-    const item = getValueAtIndex(combinedInformation.routes, (props.index + 1) % combinedInformation.routes.length) as IRoutedSection
-    scrollToView(`section-${item.name.toLowerCase()}`);
+    scrollToView(`section-${getNextSectionName().toLowerCase()}`);
   }
 
-  const onPrevClicked = () => {
+  const getPrevSectionName = () => {
     const item = getValueAtIndex(combinedInformation.routes, (props.index - 1) % combinedInformation.routes.length) as IRoutedSection
-    scrollToView(`section-${item.name.toLowerCase()}`);
+    return item.name
+  }
+
+  const getNextSectionName = () => {
+    const item = getValueAtIndex(combinedInformation.routes, (props.index + 1) % combinedInformation.routes.length) as IRoutedSection
+    return item.name
   }
 
   return (
@@ -34,14 +41,13 @@ const SectionName: React.FC<Props> = (props) => {
         </div>
 
         <div className="flex flex-row items-center">
-          <Button variant="ghost" size="icon" onClick={onPrevClicked}>
+          <Button variant="ghost" size="icon" onClick={onPrevClicked} title={`Goto ${getPrevSectionName()} section`}>
             <ChevronUpIcon className="h-4 w-4" />
           </Button>
 
-          <Button variant="ghost" size="icon" onClick={onNextClicked}>
+          <Button variant="ghost" size="icon" onClick={onNextClicked} title={`Goto ${getNextSectionName()} section`}>
             <ChevronDownIcon className="h-4 w-4" />
           </Button>
-
         </div>
       </div>
 

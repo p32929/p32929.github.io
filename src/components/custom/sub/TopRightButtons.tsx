@@ -149,7 +149,7 @@ const TopRightButtons: React.FC<Props> = (props) => {
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size="icon" title="Send Direct Message">
+              <Button variant="ghost" size="icon" title="More options">
                 <MoreVertical className="h-4 w-4" />
               </Button>
             </DropdownMenuTrigger>
