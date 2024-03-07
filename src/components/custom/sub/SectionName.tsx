@@ -41,11 +41,11 @@ const SectionName: React.FC<Props> = (props) => {
         </div>
 
         <div className="flex flex-row items-center">
-          <Button variant="ghost" size="icon" onClick={onPrevClicked} title={`Goto ${getPrevSectionName()} section`}>
+          <Button variant="ghost" size="icon" onClick={onPrevClicked} title={`Goto ${getPrevSectionName()} Section`}>
             <ChevronUpIcon className="h-4 w-4" />
           </Button>
 
-          <Button variant="ghost" size="icon" onClick={onNextClicked} title={`Goto ${getNextSectionName()} section`}>
+          <Button variant="ghost" size="icon" onClick={onNextClicked} title={`Goto ${getNextSectionName()} Section`}>
             <ChevronDownIcon className="h-4 w-4" />
           </Button>
         </div>
