@@ -20,6 +20,8 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { combinedInformation } from "@/lib/DynamicValues";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { IRoutedSection } from "@/lib/Models";
+import { getValueAtIndex, scrollToView } from "@/lib/utils";
 
 interface Props { }
 
@@ -109,10 +111,15 @@ const TopRightButtons: React.FC<Props> = (props) => {
     }
   };
 
+  const gotoTop = () => {
+    const item = getValueAtIndex(combinedInformation.routes, 0) as IRoutedSection
+    scrollToView(`section-${item.name.toLowerCase()}`);
+  }
+
   return (
     <Card className="w-full h-12">
       <ShareDialog open={isDialogOpen} setDialogOpen={setDialogOpen} />
-      <CardContent className="p-1 flex flex-row h-full items-center justify-between">
+      <CardContent className="p-1 flex flex-row h-full items-center justify-between" onClick={gotoTop}>
         <div className="flex flex-row items-center">
           <Button
             disabled
