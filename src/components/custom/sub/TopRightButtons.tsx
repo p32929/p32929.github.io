@@ -9,6 +9,7 @@ import {
   MessageCircle,
   MoreVertical,
   UserRound,
+  Share2,
 } from "lucide-react";
 
 import {
@@ -147,36 +148,14 @@ const TopRightButtons: React.FC<Props> = (props) => {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size="icon" title="More options">
-                <MoreVertical className="h-4 w-4" />
-              </Button>
-            </DropdownMenuTrigger>
+          <Button variant="ghost" size="icon" title="Source code" onClick={() => window.open(`https://github.com/p32929/p32929.github.io/`, "_blank")}>
+            <Github className="h-4 w-4" />
+          </Button>
 
-            <DropdownMenuContent align="end">
-              {moreMenuItems.map((item) => {
-                const onMenuButtonClicked = () => {
-                  const mitem = item as MoreMenuItems
-                  switch (mitem) {
-                    case "Share":
-                      setDialogOpen(true)
-                      break
+          <Button variant="ghost" size="icon" title="Share" onClick={() => setDialogOpen(true)}>
+            <Share2 className="h-4 w-4" />
+          </Button>
 
-                    case "Source Code":
-                      window.open(`https://github.com/p32929/p32929.github.io/`, "_blank")
-                      break
-
-                    case "Star / Fork":
-                      window.open(`https://github.com/p32929/p32929.github.io/`, "_blank")
-                      break
-                  }
-                }
-
-                return <DropdownMenuItem onClick={onMenuButtonClicked}>{item}</DropdownMenuItem>;
-              })}
-            </DropdownMenuContent>
-          </DropdownMenu>
         </div>
       </CardContent>
     </Card>
