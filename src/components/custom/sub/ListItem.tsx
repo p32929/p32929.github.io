@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { IListItem } from "@/lib/Models";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from "lucide-react";
 import React from "react";
 
@@ -54,7 +54,10 @@ const ListItem: React.FC<Props> = (props) => {
     <div className="w-full sm:w-full md:w-1/2 xl:w-1/2 2xl:w-1/3 p-1">
       <Card className="h-full flex flex-row w-full p-4 items-center">
         <div className="w-8 h-8 flex min-w-8 min-h-8">
-          <img className="mr-4 object-contain" src={item.logo} />
+          {/* <img className="mr-4 object-contain" src={item.logo} /> */}
+
+          <LazyLoadImage className="mr-4 object-contain" src={item.logo} />
+
         </div>
         <div className="flex flex-col ml-3 w-full gap-y-1">
           <CardTitle>{item.title}</CardTitle>
