@@ -4,6 +4,7 @@ import { IListItem } from "@/lib/Models";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from "lucide-react";
 import React from "react";
+import { useToast } from "@/components/ui/use-toast";
 
 interface Props {
   item: IListItem;
@@ -49,10 +50,27 @@ const LinkIcon: React.FC<LinkIconProps> = (props) => {
 
 const ListItem: React.FC<Props> = (props) => {
   const item = props.item;
+  const { toast } = useToast()
+
+  const onCardClicked = () => {
+    if (item.link) {
+      toast({
+        description: <div className="flex flex-row items-center">
+          Please click on the <LinkIcon url={item.link} /> icon to visit the URL
+        </div>,
+      })
+    }
+    else {
+      toast({
+        title: item.title,
+        description: item.desc,
+      })
+    }
+  }
 
   return (
     <div className="w-full sm:w-full md:w-1/2 xl:w-1/2 2xl:w-1/3 p-1">
-      <Card className="h-full flex flex-row w-full p-4 items-center">
+      <Card className="h-full flex flex-row w-full p-4 items-center" onClick={onCardClicked}>
         <div className="w-8 h-8 flex min-w-8 min-h-8">
           {/* <img className="mr-4 object-contain" src={item.logo} /> */}
 

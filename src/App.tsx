@@ -2,6 +2,7 @@ import "./App.css";
 import LeftPart from "./components/custom/LeftPart";
 import RightPart from "./components/custom/RightPart";
 import { Card, CardContent } from "./components/ui/card";
+import { Toaster } from "./components/ui/toaster";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           </CardContent>
         </Card>
       </div>
+      <Toaster />
     </>
   );
 }
