@@ -13,7 +13,8 @@ export default defineConfig({
     ),
     compression(
       {
-        algorithm: "brotliCompress"
+        algorithm: "brotliCompress",
+        include: [".js", ".json", ".css", ".html"]
       }
     ),
   ],
