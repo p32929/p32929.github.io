@@ -56,14 +56,13 @@ const ListItem: React.FC<Props> = (props) => {
     if (item.link) {
       toast({
         description: <div className="flex flex-row items-center">
-          Please click on the <LinkIcon url={item.link} /> icon to visit the URL
+          Please click on the <div className="-my-2"><LinkIcon url={item.link} /></div> icon to visit the link
         </div>,
       })
     }
     else {
       toast({
-        title: item.title,
-        description: item.desc,
+        description: `No further details available for this item`,
       })
     }
   }
