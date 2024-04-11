@@ -40,7 +40,7 @@ const SectionName: React.FC<Props> = (props) => {
           </h1>
         </div>
 
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row items-center lg:hidden">
           <Button variant="ghost" size="icon" onClick={onPrevClicked} title={`Goto ${getPrevSectionName()} Section`}>
             <SkipBack className="h-4 w-4" />
           </Button>
