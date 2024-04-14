@@ -7,6 +7,7 @@ import React from "react";
 import { useToast } from "@/components/ui/use-toast";
 
 interface Props {
+  title: string;
   item: IListItem;
 }
 
@@ -52,6 +53,20 @@ const ListItem: React.FC<Props> = (props) => {
   const item = props.item;
   const { toast } = useToast()
 
+  const getArticle = (word: string): string => {
+    // Check if the word is plural by looking for spaces
+    const isPlural = word.endsWith('s')
+
+    if (isPlural) {
+      return 'one of the';
+    } else {
+      // Determine if the word starts with a vowel or consonant
+      const vowels = ['a', 'e', 'i', 'o', 'u'];
+      const startsWithVowel = vowels.includes(word[0].toLowerCase());
+      return startsWithVowel ? 'an' : 'a';
+    }
+  }
+
   const onCardClicked = () => {
     if (item.link) {
       toast({
@@ -61,8 +76,11 @@ const ListItem: React.FC<Props> = (props) => {
       })
     }
     else {
+      const desc = item?.desc === undefined ? "" : ` ( ${item?.desc} )`
+      const finalToastStr = `${item.title}${desc} is ${getArticle(props.title)} ${props.title.toLowerCase()}`
+
       toast({
-        description: `No further details available for this item`,
+        description: finalToastStr,
       })
     }
   }
