@@ -379,8 +379,8 @@ class DynamicValues {
                 },
                 {
                     title: "dobd.xyz",
-                    link: "https://www.dobd.xyz/",
-                    logo: "https://www.dobd.xyz/android-chrome-512x512.png",
+                    link: "https://admui.vercel.app",
+                    logo: "https://admui.vercel.app/android-chrome-512x512.png",
                     desc: "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more",
 
                 },
