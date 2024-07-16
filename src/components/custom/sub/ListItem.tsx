@@ -5,7 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn, isLinkString } from "@/lib/utils";
 
 interface Props {
   title: string;
@@ -16,20 +16,6 @@ interface LinkIconProps {
   url: string | undefined;
 }
 
-const isLinkString = (props: LinkIconProps) => {
-  const linkStrings = ["http", "skype:", "mailto:"];
-
-  for (var i = 0; i < linkStrings.length; i++) {
-    if (
-      (props?.url ?? "").toString().toLowerCase().includes(linkStrings[i])
-    ) {
-      return true;
-    }
-  }
-
-  return false;
-};
-
 const LinkIcon: React.FC<LinkIconProps> = (props) => {
   const { url } = props;
 
@@ -38,7 +24,7 @@ const LinkIcon: React.FC<LinkIconProps> = (props) => {
   // };
 
   if (url) {
-    if (isLinkString(props)) {
+    if (isLinkString(props.url ?? "")) {
       return (
         <Button variant="ghost" size="icon">
           <Link className="h-4 w-4" />
@@ -61,7 +47,7 @@ const ListItem: React.FC<Props> = (props) => {
   }
 
   return (
-    <div className={cn("w-full sm:w-full md:w-1/2 xl:w-1/2 2xl:w-1/3 p-1 relative group block", isLinkString({ url: props.item.link }) ? 'cursor-pointer' : 'cursor-not-allowed')}
+    <div className={cn("w-full sm:w-full md:w-1/2 xl:w-1/2 2xl:w-1/3 p-1 relative group block", isLinkString(props.item.link ?? "") ? 'cursor-pointer' : 'cursor-not-allowed')}
       onMouseEnter={() => setHoveredIndex(item.title)}
       onMouseLeave={() => setHoveredIndex(null)}
       onClick={onCardClicked}
@@ -69,7 +55,7 @@ const ListItem: React.FC<Props> = (props) => {
       <AnimatePresence>
         {item.title === hoveredIndex && (
           <motion.span
-            className={cn("absolute inset-0 h-full w-full block bg-opacity-15 rounded-xl", isLinkString({ url: props.item.link }) ? "bg-green-500" : "bg-red-500")}
+            className={cn("absolute inset-0 h-full w-full block bg-opacity-15 rounded-xl", isLinkString(props.item.link ?? "") ? "bg-green-500" : "bg-red-500")}
             layoutId="hoverBackground"
             initial={{ opacity: 0 }}
             animate={{
