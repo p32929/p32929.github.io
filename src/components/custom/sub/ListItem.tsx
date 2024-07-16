@@ -3,8 +3,9 @@ import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { IListItem } from "@/lib/Models";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from "lucide-react";
-import React from "react";
-import { useToast } from "@/components/ui/use-toast";
+import { AnimatePresence, motion } from "framer-motion";
+import React, { useState } from "react";
+import { cn } from "@/lib/utils";
 
 interface Props {
   title: string;
@@ -15,31 +16,31 @@ interface LinkIconProps {
   url: string | undefined;
 }
 
+const isLinkString = (props: LinkIconProps) => {
+  const linkStrings = ["http", "skype:", "mailto:"];
+
+  for (var i = 0; i < linkStrings.length; i++) {
+    if (
+      (props?.url ?? "").toString().toLowerCase().includes(linkStrings[i])
+    ) {
+      return true;
+    }
+  }
+
+  return false;
+};
+
 const LinkIcon: React.FC<LinkIconProps> = (props) => {
   const { url } = props;
 
-  const isLinkString = () => {
-    const linkStrings = ["http", "skype:", "mailto:"];
-
-    for (var i = 0; i < linkStrings.length; i++) {
-      if (
-        (props?.url ?? "").toString().toLowerCase().includes(linkStrings[i])
-      ) {
-        return true;
-      }
-    }
-
-    return false;
-  };
-
-  const onLinkButtonClicked = () => {
-    window.open(url, "_blank");
-  };
+  // const onLinkButtonClicked = () => {
+  //   window.open(url, "_blank");
+  // };
 
   if (url) {
-    if (isLinkString()) {
+    if (isLinkString(props)) {
       return (
-        <Button variant="ghost" size="icon" onClick={onLinkButtonClicked}>
+        <Button variant="ghost" size="icon">
           <Link className="h-4 w-4" />
         </Button>
       );
@@ -51,43 +52,39 @@ const LinkIcon: React.FC<LinkIconProps> = (props) => {
 
 const ListItem: React.FC<Props> = (props) => {
   const item = props.item;
-  const { toast } = useToast()
-
-  const getArticle = (word: string): string => {
-    // Check if the word is plural by looking for spaces
-    const isPlural = word.endsWith('s')
-
-    if (isPlural) {
-      return 'one of the';
-    } else {
-      // Determine if the word starts with a vowel or consonant
-      const vowels = ['a', 'e', 'i', 'o', 'u'];
-      const startsWithVowel = vowels.includes(word[0].toLowerCase());
-      return startsWithVowel ? 'an' : 'a';
-    }
-  }
+  let [hoveredIndex, setHoveredIndex] = useState<any>(null);
 
   const onCardClicked = () => {
     if (item.link) {
-      toast({
-        description: <div className="flex flex-row items-center">
-          Please click on the <div className="-my-2"><LinkIcon url={item.link} /></div> icon to visit the link
-        </div>,
-      })
-    }
-    else {
-      const desc = item?.desc === undefined ? "" : ` ( ${item?.desc} )`
-      const finalToastStr = `${item.title}${desc} is ${getArticle(props.title)} ${props.title.toLowerCase()}`
-
-      toast({
-        description: finalToastStr,
-      })
+      window.open(item.link, "_blank")
     }
   }
 
   return (
-    <div className="w-full sm:w-full md:w-1/2 xl:w-1/2 2xl:w-1/3 p-1">
-      <Card className="h-full flex flex-row w-full p-4 items-center" onClick={onCardClicked}>
+    <div className={cn("w-full sm:w-full md:w-1/2 xl:w-1/2 2xl:w-1/3 p-1 relative group block", isLinkString({ url: props.item.link }) ? 'cursor-pointer' : 'cursor-not-allowed')}
+      onMouseEnter={() => setHoveredIndex(item.title)}
+      onMouseLeave={() => setHoveredIndex(null)}
+      onClick={onCardClicked}
+    >
+      <AnimatePresence>
+        {item.title === hoveredIndex && (
+          <motion.span
+            className={cn("absolute inset-0 h-full w-full block bg-opacity-15 rounded-xl", isLinkString({ url: props.item.link }) ? "bg-green-500" : "bg-red-500")}
+            layoutId="hoverBackground"
+            initial={{ opacity: 0 }}
+            animate={{
+              opacity: 1,
+              transition: { duration: 0.15 },
+            }}
+            exit={{
+              opacity: 0,
+              transition: { duration: 0.15, delay: 0.2 },
+            }}
+          />
+        )}
+      </AnimatePresence>
+
+      <Card className="h-full flex flex-row w-full p-4 items-center">
         <div className="w-8 h-8 flex min-w-8 min-h-8">
           {/* <img className="mr-4 object-contain" src={item.logo} /> */}
 
