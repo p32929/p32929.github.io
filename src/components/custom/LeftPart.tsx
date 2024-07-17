@@ -77,18 +77,19 @@ const LeftPart: React.FC<Props> = (props) => {
                   </motion.div>
 
                   <motion.span
-                    className="absolute inset-0 h-full w-full block ring-4 ring-green-950 bg-green-800 bg-opacity-30 rounded cursor-pointer"
+                    className="absolute inset-0 h-full w-full block ring-4 ring-white bg-blue-500 bg-opacity-10 rounded cursor-pointer"
                     layoutId="hoverBackground"
                     initial={{ opacity: 0 }}
                     animate={{
                       opacity: 1,
-                      transition: { duration: 0.15 },
+                      transition: { duration: 0.3 },
                     }}
                     exit={{
                       opacity: 0,
                       transition: { duration: 0.15, delay: 0.2 },
                     }}
                   />
+
                 </>
               )}
             </AnimatePresence>
