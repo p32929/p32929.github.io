@@ -385,27 +385,18 @@ class DynamicValues {
                     link: "https://admui.vercel.app",
                     logo: "https://admui.vercel.app/android-chrome-512x512.png",
                     desc: "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more",
-
-                },
-                {
-                    title: 'StartPage',
-                    logo: 'https://cdn.iconscout.com/icon/premium/png-128-thumb/homepage-2580329-2151669.png',
-                    desc: 'A minimalistic custom browser startpage that can be configured to your needs. ',
-                    link: 'https://p32929.github.io/startpage/'
                 },
                 {
                     title: "s3cr3tm3",
                     link: "https://s3cr3tm3.netlify.app/",
                     logo: "https://user-images.githubusercontent.com/6418354/173877444-59dbdd3d-1b5d-4b92-ad53-30fada9362d2.png",
                     desc: "Share secret messages secretely",
-
                 },
                 {
                     title: 'OrderZesty',
                     logo: 'https://orderzesty.com/wp-content/uploads/2021/10/Zesty-icon@3x-300x300.png',
                     desc: 'Personal chef service delivering fresh signature meals.',
                     link: 'https://orderzesty.com/',
-
                 },
                 {
                     title: 'DramaDB',
@@ -454,9 +445,7 @@ class DynamicValues {
                     logo: 'https://p32929.github.io/mathfinity/icons/Icon-192.png',
                     desc: 'Simple, infinite & fun math game for everyone',
                     link: "https://p32929.github.io/mathfinity/",
-
                 },
-
             ]
         },
         {
@@ -492,14 +481,12 @@ class DynamicValues {
                     logo: 'https://cdn.apkmonk.com/logos/com.thamao_150x150.png',
                     desc: 'বাংলাদেশে স্মার্টফোনের চুরি এবার অসম্ভব',
                     link: 'https://www.apkmonk.com/app/com.thamao/',
-
                 },
                 {
                     title: 'Desplash',
                     logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
                     desc: 'Automatic Free High Quality Wallpapers powered by Unsplash.com',
                     link: 'https://www.xda-developers.com/desplash-wallpaper-app-unsplash/',
-
                 },
                 {
                     title: 'The Great Postman',
@@ -608,14 +595,12 @@ class DynamicValues {
                     logo: 'https://github.com/p32929/pomota/blob/master/src-tauri/icons/128x128.png?raw=true',
                     desc: 'A simple user-friendly cross-platform tauri based pomodoro timer app that forces you to take a break',
                     link: 'https://github.com/p32929/pomota',
-
                 },
                 {
                     title: 'google calender widget',
                     logo: 'https://duckduckgo.com/i/e2d8001c.png',
                     desc: 'An unofficial google calendar desktop widget for Windows, Mac and Linux ',
                     link: 'https://github.com/p32929/google-calender-widget',
-
                 },
             ]
         },
