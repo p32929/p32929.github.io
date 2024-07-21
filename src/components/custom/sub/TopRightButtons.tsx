@@ -119,7 +119,7 @@ const TopRightButtons: React.FC<Props> = (props) => {
   return (
     <Card className="w-full h-12">
       <ShareDialog open={isDialogOpen} setDialogOpen={setDialogOpen} />
-      <CardContent className="p-1 flex flex-row h-full items-center justify-between" onClick={gotoTop}>
+      <CardContent className="p-1 flex flex-row h-full items-center justify-between">
         <div className="flex flex-row items-center">
           <Button
             disabled
@@ -129,7 +129,9 @@ const TopRightButtons: React.FC<Props> = (props) => {
             <UserRound className="h-4 w-4" />
           </Button>
 
-          <h1 className="text-sm font-bold tracking-wider">Portfolio</h1>
+          <h1 className="text-sm font-bold tracking-wider cursor-pointer" onClick={gotoTop}>
+            Portfolio
+          </h1>
         </div>
 
         <div>
