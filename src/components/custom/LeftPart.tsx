@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Card, CardContent } from "../ui/card";
 import { Button } from "../ui/button";
 import { combinedInformation } from "@/lib/DynamicValues";
@@ -18,13 +18,21 @@ const LeftPart: React.FC<Props> = (props) => {
   const [isHovered, setHovered] = useState(false);
 
   const springConfig = { stiffness: 100, damping: 5 };
-  const x = useMotionValue(0); // going to set this value on mouse move
-  const rotate = useSpring(useTransform(x, [-100, 100], [-45, 45]), springConfig);
-  const translateX = useSpring(useTransform(x, [-100, 100], [-50, 50]), springConfig);
+  const x = useMotionValue(0);
+  const rotate = useTransform(x, [-100, 100], [-45, 45]);
+  const translateX = useTransform(x, [-100, 100], [-50, 50]);
+  const rotateSpring = useSpring(rotate, springConfig);
+  const translateXSpring = useSpring(translateX, springConfig);
+
+  useEffect(() => {
+    if (!isHovered) {
+      x.set(0);
+    }
+  }, [isHovered]);
 
   const handleMouseMove = (event: any) => {
-    const halfWidth = event.target.offsetWidth / 2;
-    x.set(event.nativeEvent.offsetX - halfWidth); // set the x value, which is then used in transform and rotate
+    const halfWidth = event.currentTarget.offsetWidth / 2;
+    x.set(event.nativeEvent.offsetX - halfWidth);
   };
 
   const onPersonIconClicked = () => {
@@ -47,7 +55,7 @@ const LeftPart: React.FC<Props> = (props) => {
               {isHovered && (
                 <>
                   <motion.div
-                    key="tooltip" // Unique key to ensure reanimation
+                    key="tooltip"
                     initial={{ opacity: 0, y: 20, scale: 0.6 }}
                     animate={{
                       opacity: 1,
@@ -61,8 +69,8 @@ const LeftPart: React.FC<Props> = (props) => {
                     }}
                     exit={{ opacity: 0, y: 20, scale: 0.6 }}
                     style={{
-                      translateX: translateX,
-                      rotate: rotate,
+                      translateX: translateXSpring,
+                      rotate: rotateSpring,
                       whiteSpace: "nowrap",
                     }}
                     className="absolute -top-16 left-1/2 -translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"

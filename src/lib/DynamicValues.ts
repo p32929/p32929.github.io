@@ -2,7 +2,6 @@ import { ICombinedInformation, IDirectMessageItem, IInitialInformation, ITitledL
 
 class DynamicValues {
     static initialInformation: IInitialInformation = {
-        iconText: "Fa",
         name: "Fayaz Bin Salam",
         occupation: "Software Engineer",
     }
@@ -196,6 +195,10 @@ class DynamicValues {
         {
             text: "Libraries / Frameworks / Techs",
             arr: [
+                {
+                    title: 'Prisma',
+                    logo: 'https://www.svgrepo.com/show/374002/prisma.svg'
+                },
                 {
                     title: 'Android App Development',
                     logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg'

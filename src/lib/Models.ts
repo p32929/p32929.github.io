@@ -17,7 +17,6 @@ export interface ITitledListItem {
 }
 
 export interface IInitialInformation {
-    iconText: string
     name: string
     occupation: string
 }
