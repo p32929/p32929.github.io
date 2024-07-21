@@ -378,7 +378,12 @@ class DynamicValues {
                     link: "https://p32929.github.io/duas/",
                     logo: "https://p32929.github.io/duas/favicon.png",
                     desc: "A collection of duas I try to regularly recite - created using flutter web",
-
+                },
+                {
+                    title: "Sha1ToMd5",
+                    link: "https://p32929.github.io/Sha1ToMd5/",
+                    logo: "https://github.com/user-attachments/assets/6d63227d-1b72-4c22-9923-b2a4c96d4b68",
+                    desc: "A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work. ",
                 },
                 {
                     title: "dobd.xyz",
@@ -602,6 +607,13 @@ class DynamicValues {
                     desc: 'An unofficial google calendar desktop widget for Windows, Mac and Linux ',
                     link: 'https://github.com/p32929/google-calender-widget',
                 },
+                {
+                    title: 'MacJuiceMonitor',
+                    logo: 'https://github.com/user-attachments/assets/21b4d0ac-1734-4d42-9da4-e873628a022a',
+                    desc: 'Your essential tool for keeping track of all your Bluetooth-connected devices\' battery levels, conveniently located in the macOS menu bar',
+                    link: 'https://github.com/p32929/mac-juice-monitor',
+                },
+
             ]
         },
         {
@@ -726,6 +738,12 @@ class DynamicValues {
                     link: 'https://www.npmjs.com/package/str-template-ts'
                 },
                 {
+                    title: 'use-megamind',
+                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
+                    desc: ' A simple react hook for managing asynchronous function calls with ease on the client side ',
+                    link: 'https://github.com/p32929/use-megamind'
+                },
+                {
                     title: 'EasiestDB',
                     logo: `https://cdn.iconscout.com/icon/free/png-256/free-flutter-3521432-2944876.png`,
                     desc: 'The Easiest and the Laziest approach to Flutter SQL Database.',
@@ -759,8 +777,20 @@ class DynamicValues {
                     logo: 'https://code.visualstudio.com/assets/images/code-stable.png',
                     desc: 'A modified version of the turbo-console-log that adds only one line of console instead of multiples.',
                     link: 'https://marketplace.visualstudio.com/items?itemName=p32929.one-console-log',
+                },
+                {
+                    title: 'Home',
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/800px-Google_Chrome_icon_%28February_2022%29.svg.png',
+                    desc: 'A Simple homepage extension created using Shadcn, React, TypeScript, usm-redux etc ',
+                    link: 'https://github.com/p32929/Home',
+                },
+                {
+                    title: 'obsidotion',
+                    logo: 'https://obsidian.md/images/obsidian-logo-gradient.svg',
+                    desc: 'Asimple obsidian plugin that syncs from/to obsidian/notion ',
+                    link: 'https://github.com/p32929/obsidotion',
+                },
 
-                }
             ]
         },
     ]
