@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { IListItem } from "@/lib/Models";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { Link } from "lucide-react";
+import { ImageOff, Link } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
 import { cn, isLinkString } from "@/lib/utils";
@@ -18,10 +18,6 @@ interface LinkIconProps {
 
 const LinkIcon: React.FC<LinkIconProps> = (props) => {
   const { url } = props;
-
-  // const onLinkButtonClicked = () => {
-  //   window.open(url, "_blank");
-  // };
 
   if (url) {
     if (isLinkString(props.url ?? "")) {
@@ -39,6 +35,7 @@ const LinkIcon: React.FC<LinkIconProps> = (props) => {
 const ListItem: React.FC<Props> = (props) => {
   const item = props.item;
   let [hoveredIndex, setHoveredIndex] = useState<any>(null);
+  const [imageError, setImageError] = useState(false);
 
   const onCardClicked = () => {
     if (item.link) {
@@ -72,10 +69,15 @@ const ListItem: React.FC<Props> = (props) => {
 
       <Card className="h-full flex flex-row w-full p-4 items-center">
         <div className="w-8 h-8 flex min-w-8 min-h-8">
-          {/* <img className="mr-4 object-contain" src={item.logo} /> */}
-
-          <LazyLoadImage className="mr-4 object-contain" src={item.logo} />
-
+          {!imageError ? (
+            <LazyLoadImage
+              className="mr-4 object-contain"
+              src={item.logo}
+              onError={() => setImageError(true)}
+            />
+          ) : (
+            <ImageOff className="w-full h-full" />
+          )}
         </div>
         <div className="flex flex-col ml-3 w-full gap-y-1">
           <CardTitle>{item.title}</CardTitle>

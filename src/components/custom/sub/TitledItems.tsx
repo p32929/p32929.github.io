@@ -6,7 +6,6 @@ import React from "react";
 import ListItem from "./ListItem";
 
 interface Props {
-  title: string;
   items: ITitledListItem[];
 }
 
