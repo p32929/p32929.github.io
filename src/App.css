@@ -55,3 +55,8 @@
     background-color: rgba(0, 0, 0, 0.1);
     outline: 1px solid slategrey;
 }
+
+.glowing-icon {
+  color: white;
+  filter: drop-shadow(0 0 5px yellow) drop-shadow(0 0 10px yellow) drop-shadow(0 0 15px yellow);
+}

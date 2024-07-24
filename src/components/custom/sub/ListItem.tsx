@@ -14,16 +14,17 @@ interface Props {
 
 interface LinkIconProps {
   url: string | undefined;
+  isHovering: boolean
 }
 
 const LinkIcon: React.FC<LinkIconProps> = (props) => {
-  const { url } = props;
+  const { url, isHovering } = props;
 
   if (url) {
     if (isLinkString(props.url ?? "")) {
       return (
-        <Button variant="ghost" size="icon">
-          <Link className="h-4 w-4" />
+        <Button variant="ghost" size="icon" className="hover:bg-transparent">
+          <Link className={cn("h-4 w-4", isHovering ? "glowing-icon animate-bounce" : "")} />
         </Button>
       );
     }
@@ -84,7 +85,7 @@ const ListItem: React.FC<Props> = (props) => {
           <CardDescription>{item.desc}</CardDescription>
         </div>
 
-        <LinkIcon url={item.link} />
+        <LinkIcon url={item.link} isHovering={item.title === hoveredIndex} />
       </Card>
     </div>
   );
