@@ -4,9 +4,9 @@
 
 # Screenshots
 
-![pc view](https://github.com/p32929/p32929.github.io/assets/6418354/71ea6422-8087-4521-a10e-718e8cf17dd2)
+![pc view](https://github.com/user-attachments/assets/b62e9c7c-8f33-4a43-851b-91c9c065b79f)
 
-![mobile view](https://github.com/p32929/p32929.github.io/assets/6418354/955c4436-e85c-468a-b622-29d76f188f9f)
+![mobile view](https://github.com/user-attachments/assets/f18fa62a-9b90-4e7e-837c-f0fc3dedf6bf)
 
 # Share
 
