@@ -43,6 +43,7 @@ const ListItem: React.FC<Props> = (props) => {
       window.open(item.link, "_blank")
     }
   }
+  const isHovering = item.title === hoveredIndex
 
   return (
     <div className={cn("w-full sm:w-full md:w-1/2 xl:w-1/2 2xl:w-1/3 p-1 relative group block", isLinkString(props.item.link ?? "") ? 'cursor-pointer' : 'cursor-not-allowed')}
@@ -51,7 +52,7 @@ const ListItem: React.FC<Props> = (props) => {
       onClick={onCardClicked}
     >
       <AnimatePresence>
-        {item.title === hoveredIndex && (
+        {isHovering && (
           <motion.span
             className={cn("absolute inset-0 h-full w-full block bg-opacity-15 rounded-xl", isLinkString(props.item.link ?? "") ? "bg-green-500" : "bg-red-500")}
             layoutId="hoverBackground"
@@ -85,7 +86,7 @@ const ListItem: React.FC<Props> = (props) => {
           <CardDescription>{item.desc}</CardDescription>
         </div>
 
-        <LinkIcon url={item.link} isHovering={item.title === hoveredIndex} />
+        <LinkIcon url={item.link} isHovering={isHovering} />
       </Card>
     </div>
   );
