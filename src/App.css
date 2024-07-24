@@ -58,5 +58,11 @@
 
 .glowing-icon {
   color: white;
-  filter: drop-shadow(0 0 5px yellow) drop-shadow(0 0 10px yellow) drop-shadow(0 0 15px yellow);
+  filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px yellow) drop-shadow(0 0 15px white);
+}
+
+.glowing-person-icon {
+  color: white;
+  filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px white) drop-shadow(0 0 15px white);
+  transition: filter 500ms ease-in-out;
 }

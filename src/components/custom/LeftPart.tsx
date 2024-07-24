@@ -3,7 +3,7 @@ import { Card, CardContent } from "../ui/card";
 import { Button } from "../ui/button";
 import { combinedInformation } from "@/lib/DynamicValues";
 import { PersonStanding } from "lucide-react";
-import { getRandomLink, scrollToView } from "@/lib/utils";
+import { cn, getRandomLink, scrollToView } from "@/lib/utils";
 import {
   motion,
   useTransform,
@@ -102,7 +102,7 @@ const LeftPart: React.FC<Props> = (props) => {
               )}
             </AnimatePresence>
 
-            <PersonStanding className="w-full h-full" />
+            <PersonStanding className={cn("w-full h-full ", isHovered ? "glowing-person-icon" : "")} />
           </div>
 
           <h1 className="text-xl font-extrabold tracking-normal ">
