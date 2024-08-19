@@ -44,65 +44,67 @@ const LeftPart: React.FC<Props> = (props) => {
     <Card className="lg:w-1/3 xl:w-1/3 2xl:w-1/4 h-full p-0 m-0 lg:block hidden ">
       <CardContent className="p-0 m-0 flex flex-col h-full justify-between">
         <div className="flex flex-col w-full items-center p-10">
-          <div
-            className="w-28 h-28 border-2 rounded-md my-8 p-2 relative"
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
-            onClick={onPersonIconClicked}
-            onMouseMove={handleMouseMove}
-          >
-            <AnimatePresence>
-              {isHovered && (
-                <>
-                  <motion.div
-                    key="tooltip"
-                    initial={{ opacity: 0, y: 20, scale: 0.6 }}
-                    animate={{
-                      opacity: 1,
-                      y: 0,
-                      scale: 1,
-                      transition: {
-                        type: "spring",
-                        stiffness: 260,
-                        damping: 10,
-                      },
-                    }}
-                    exit={{ opacity: 0, y: 20, scale: 0.6 }}
-                    style={{
-                      translateX: translateXSpring,
-                      rotate: rotateSpring,
-                      whiteSpace: "nowrap",
-                    }}
-                    className="absolute -top-16 left-1/2 -translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"
-                  >
-                    <div className="absolute inset-x-10 z-30 w-[50%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
-                    <div className="absolute left-10 w-[70%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-1" />
+          <div className="w-28 h-28 border-2 rounded-md my-8 p-2 relative">
+            <div
+              className="w-full h-full cursor-pointer"
+              onMouseEnter={() => setHovered(true)}
+              onMouseLeave={() => setHovered(false)}
+              onClick={onPersonIconClicked}
+              onMouseMove={handleMouseMove}
+            >
+              <AnimatePresence>
+                {isHovered && (
+                  <>
+                    <motion.div
+                      key="tooltip"
+                      initial={{ opacity: 0, y: 20, scale: 0.6 }}
+                      animate={{
+                        opacity: 1,
+                        y: 0,
+                        scale: 1,
+                        transition: {
+                          type: "spring",
+                          stiffness: 260,
+                          damping: 10,
+                        },
+                      }}
+                      exit={{ opacity: 0, y: 20, scale: 0.6 }}
+                      style={{
+                        translateX: translateXSpring,
+                        rotate: rotateSpring,
+                        whiteSpace: "nowrap",
+                      }}
+                      className="absolute -top-16 left-1/2 -translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"
+                    >
+                      <div className="absolute inset-x-10 z-30 w-[50%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
+                      <div className="absolute left-10 w-[70%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-1" />
 
-                    <p className="font-semibold text-primary relative z-30 text-base">
-                      Are you feeling lucky today?
-                    </p>
-                    <p className="text-primary text-sm text-center font-normal">Click to feel even more lucky...</p>
-                  </motion.div>
+                      <p className="font-semibold text-primary relative z-30 text-base">
+                        Are you feeling lucky today?
+                      </p>
+                      <p className="text-primary text-sm text-center font-normal">Click to feel even more lucky...</p>
+                    </motion.div>
 
-                  <motion.span
-                    className="absolute inset-0 h-full w-full block ring-4 ring-white bg-blue-500 bg-opacity-10 rounded cursor-pointer"
-                    layoutId="hoverBackground"
-                    initial={{ opacity: 0 }}
-                    animate={{
-                      opacity: 1,
-                      transition: { duration: 0.5 },
-                    }}
-                    exit={{
-                      opacity: 0,
-                      transition: { duration: 0.5 },
-                    }}
-                  />
+                    <motion.span
+                      className="absolute inset-0 h-full w-full block ring-4 ring-white bg-blue-500 bg-opacity-10 rounded cursor-pointer"
+                      layoutId="hoverBackground"
+                      initial={{ opacity: 0 }}
+                      animate={{
+                        opacity: 1,
+                        transition: { duration: 0.5 },
+                      }}
+                      exit={{
+                        opacity: 0,
+                        transition: { duration: 0.5 },
+                      }}
+                    />
 
-                </>
-              )}
-            </AnimatePresence>
+                  </>
+                )}
+              </AnimatePresence>
 
-            <PersonStanding className={cn("w-full h-full ", isHovered ? "glowing-person-icon" : "")} />
+              <PersonStanding className={cn("w-full h-full ", isHovered ? "glowing-person-icon" : "")} />
+            </div>
           </div>
 
           <h1 className="text-xl font-extrabold tracking-normal ">
