@@ -11,6 +11,7 @@ import {
   useMotionValue,
   useSpring,
 } from "framer-motion";
+import { Amplitude, amplitudeEvents } from "@/lib/Amplitude";
 
 interface Props { }
 
@@ -37,6 +38,7 @@ const LeftPart: React.FC<Props> = (props) => {
 
   const onPersonIconClicked = () => {
     const link = getRandomLink();
+    Amplitude.trackCustomEvent(amplitudeEvents.clicked_on_person_icon, { link })
     window.open(link ?? "", "_blank");
   };
 
@@ -47,8 +49,14 @@ const LeftPart: React.FC<Props> = (props) => {
           <div className="w-28 h-28 border-2 rounded-md my-8 p-2 relative">
             <div
               className="w-full h-full cursor-pointer"
-              onMouseEnter={() => setHovered(true)}
-              onMouseLeave={() => setHovered(false)}
+              onMouseEnter={() => {
+                setHovered(true)
+                Amplitude.trackCustomEvent(amplitudeEvents.hovered_on_person_icon, { isHovered })
+              }}
+              onMouseLeave={() => {
+                setHovered(false)
+                Amplitude.trackCustomEvent(amplitudeEvents.hovered_on_person_icon, { isHovered })
+              }}
               onClick={onPersonIconClicked}
               onMouseMove={handleMouseMove}
             >
@@ -120,6 +128,7 @@ const LeftPart: React.FC<Props> = (props) => {
           {combinedInformation.routes.map((item) => {
             const onButtonClicked = () => {
               scrollToView(`section-${item.name.toLowerCase()}`);
+              Amplitude.trackCustomEvent(amplitudeEvents.clicked_on_left_navigation_route, { name: item.name })
             };
 
             return (

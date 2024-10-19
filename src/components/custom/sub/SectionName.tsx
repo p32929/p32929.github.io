@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { Amplitude, amplitudeEvents } from "@/lib/Amplitude";
 import { combinedInformation } from "@/lib/DynamicValues";
 import { IRoutedSection } from "@/lib/Models";
 import { getValueAtIndex, scrollToView } from "@/lib/utils";
 
-import { ChevronDownIcon, ChevronRightIcon, ChevronUpIcon, SkipBack, SkipForward, Star } from "lucide-react";
+import { SkipBack, SkipForward, Star } from "lucide-react";
 import React from "react";
 
 interface Props {
@@ -14,10 +15,14 @@ interface Props {
 
 const SectionName: React.FC<Props> = (props) => {
   const onPrevClicked = () => {
-    scrollToView(`section-${getPrevSectionName().toLowerCase()}`);
+    const section = `section-${getPrevSectionName().toLowerCase()}`
+    Amplitude.trackCustomEvent(amplitudeEvents.clicked_goto_prev_section, { section })
+    scrollToView(section);
   }
   const onNextClicked = () => {
-    scrollToView(`section-${getNextSectionName().toLowerCase()}`);
+    const section = `section-${getNextSectionName().toLowerCase()}`
+    Amplitude.trackCustomEvent(amplitudeEvents.clicked_goto_next_section, { section })
+    scrollToView(section);
   }
 
   const getPrevSectionName = () => {

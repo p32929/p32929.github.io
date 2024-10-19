@@ -1,13 +1,10 @@
-import { useTheme } from "@/components/theme-provider";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 import React, { useEffect, useState } from "react";
 import {
-  Menu,
   Github,
   MessageCircle,
-  MoreVertical,
   UserRound,
   Share2,
 } from "lucide-react";
@@ -19,9 +16,10 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { combinedInformation } from "@/lib/DynamicValues";
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { IRoutedSection } from "@/lib/Models";
 import { getValueAtIndex, scrollToView } from "@/lib/utils";
+import { Amplitude, amplitudeEvents } from "@/lib/Amplitude";
 
 interface Props { }
 
@@ -85,7 +83,9 @@ const ShareDialog: React.FC<DialogProps> = ({ open, setDialogOpen }) => {
         {
           shareMenuItems.map((item) => {
             const onButtonClicked = () => {
-              window.open(`${item.link}${window.location.href}`, '_blank')
+              const url = `${item.link}${window.location.href}`
+              Amplitude.trackCustomEvent(amplitudeEvents.clicked_on_share_item, { url })
+              window.open(url, '_blank')
             }
 
             return <Button variant="outline" onClick={onButtonClicked}>{item.title}</Button>
@@ -96,25 +96,22 @@ const ShareDialog: React.FC<DialogProps> = ({ open, setDialogOpen }) => {
   </Dialog>
 }
 
-const moreMenuItems = ["Share", "Star / Fork", "Source Code"] as const
-type MoreMenuItems = typeof moreMenuItems[number];
-
 const TopRightButtons: React.FC<Props> = (props) => {
-  const { setTheme, theme } = useTheme();
   const [isDialogOpen, setDialogOpen] = useState(false)
 
-  const toggleTheme = () => {
-    if (theme == "dark") {
-      setTheme("light");
-    } else {
-      setTheme("dark");
-    }
-  };
-
   const gotoTop = () => {
+    Amplitude.trackCustomEvent(amplitudeEvents.clicked_on_goto_top, {})
     const item = getValueAtIndex(combinedInformation.routes, 0) as IRoutedSection
     scrollToView(`section-${item.name.toLowerCase()}`);
   }
+
+  const onDirectMessagesDropdownOpen = (open: boolean) => {
+    Amplitude.trackCustomEvent(amplitudeEvents.opened_direct_message_dropdown, { open })
+  }
+
+  useEffect(() => {
+    Amplitude.trackCustomEvent(amplitudeEvents.opened_share_dialog, { isDialogOpen })
+  }, [isDialogOpen])
 
   return (
     <Card className="w-full h-12">
@@ -135,7 +132,7 @@ const TopRightButtons: React.FC<Props> = (props) => {
         </div>
 
         <div>
-          <DropdownMenu>
+          <DropdownMenu onOpenChange={onDirectMessagesDropdownOpen}>
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" size="icon" title="Send Direct Message">
                 <MessageCircle className="h-4 w-4" />
@@ -145,6 +142,7 @@ const TopRightButtons: React.FC<Props> = (props) => {
             <DropdownMenuContent align="end">
               {combinedInformation.directMessageItems.map((item) => {
                 const onDropdownItemClicked = () => {
+                  Amplitude.trackCustomEvent(amplitudeEvents.clicked_direct_message_item, { link: item.link })
                   window.open(item.link, "_blank");
                 };
 
@@ -157,7 +155,11 @@ const TopRightButtons: React.FC<Props> = (props) => {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Button variant="ghost" size="icon" title="Source code" onClick={() => window.open(`https://github.com/p32929/p32929.github.io/`, "_blank")}>
+          <Button variant="ghost" size="icon" title="Source code" onClick={() => {
+            const url = `https://github.com/p32929/p32929.github.io/`
+            Amplitude.trackCustomEvent(amplitudeEvents.clicked_github_icon, { url })
+            window.open(url, "_blank")
+          }}>
             <Github className="h-4 w-4" />
           </Button>
 

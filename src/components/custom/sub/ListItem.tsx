@@ -4,8 +4,9 @@ import { IListItem } from "@/lib/Models";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { ImageOff, Link } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { cn, isLinkString } from "@/lib/utils";
+import { Amplitude, amplitudeEvents } from "@/lib/Amplitude";
 
 interface Props {
   title: string;
@@ -15,10 +16,18 @@ interface Props {
 interface LinkIconProps {
   url: string | undefined;
   isHovering: boolean
+  title: string
+  description: string
 }
 
 const LinkIcon: React.FC<LinkIconProps> = (props) => {
-  const { url, isHovering } = props;
+  const { url, isHovering, title, description } = props;
+
+  useEffect(() => {
+    if (isHovering) {
+      Amplitude.trackCustomEvent(amplitudeEvents.hovered_on_item, { url, title, description })
+    }
+  }, [isHovering])
 
   if (url) {
     if (isLinkString(props.url ?? "")) {
@@ -40,7 +49,9 @@ const ListItem: React.FC<Props> = (props) => {
 
   const onCardClicked = () => {
     if (item.link) {
-      window.open(item.link, "_blank")
+      const link = item.link
+      Amplitude.trackCustomEvent(amplitudeEvents.clicked_on_item, { link })
+      window.open(link, "_blank")
     }
   }
   const isHovering = item.title === hoveredIndex
@@ -86,7 +97,7 @@ const ListItem: React.FC<Props> = (props) => {
           <CardDescription>{item.desc}</CardDescription>
         </div>
 
-        <LinkIcon url={item.link} isHovering={isHovering} />
+        <LinkIcon url={item.link} isHovering={isHovering} title={item.title} description={item.desc ?? ""} />
       </Card>
     </div>
   );
