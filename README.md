@@ -4,9 +4,14 @@
 
 # Screenshots
 
-https://github.com/user-attachments/assets/4600ddd8-20e2-489e-80ef-a6a96b61d39d
+## Desktop View
+![image](https://github.com/user-attachments/assets/c72b290f-39e5-4dc5-a395-db53ae4c7ff6)
 
-https://github.com/user-attachments/assets/e693fe84-033c-4775-b41f-6b11d66fd7bc
+## Tablet View
+![image](https://github.com/user-attachments/assets/73cbd733-6e36-4efe-8fb8-93309b58a2df)
+
+## Mobile View
+![image](https://github.com/user-attachments/assets/0667a45b-b81b-46a2-846c-51fd8cb58c81)
 
 # Share
 
