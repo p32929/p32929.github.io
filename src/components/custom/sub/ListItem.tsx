@@ -23,11 +23,11 @@ interface LinkIconProps {
 const LinkIcon: React.FC<LinkIconProps> = (props) => {
   const { url, isHovering, title, description } = props;
 
-  useEffect(() => {
-    if (isHovering) {
-      Amplitude.trackCustomEvent(amplitudeEvents.hovered_on_item, { url, title, description })
-    }
-  }, [isHovering])
+  // useEffect(() => {
+  //   if (isHovering) {
+  //     Amplitude.trackCustomEvent(amplitudeEvents.hovered_on_item, { url, title, description })
+  //   }
+  // }, [isHovering])
 
   if (url) {
     if (isLinkString(props.url ?? "")) {
