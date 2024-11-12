@@ -415,6 +415,12 @@ class DynamicValues {
                     desc: 'A beautifully created Absolutely FREE URL shortener for everyone made using React Shadcn Firebase. ',
                     link: 'https://sh0sh0.netlify.app/',
                 },
+                {
+                    title: 'Github Trending',
+                    logo: 'https://github.com/user-attachments/assets/d93d3ea0-769b-42f1-8107-403bb9760ccd',
+                    desc: 'A simple webpage that scrapes github LIVE in front of your eyes and gets the list of trending repositories',
+                    link: 'http://tiny.cc/ghtre',
+                },
                 // {
                 //     title: "TheRealWorldFree",
                 //     logo: "https://framerusercontent.com/images/Tttp7tCHSlFL4GgIF783y9wn7vQ.webp",
