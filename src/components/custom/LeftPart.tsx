@@ -119,7 +119,7 @@ const LeftPart: React.FC<Props> = (props) => {
             {combinedInformation.initialInformation.name}
           </h1>
 
-          <h1 className="text-sm font-extrabold tracking-normal mt-0.5">
+          <h1 className="text-sm font-bold tracking-normal mt-0.5">
             {combinedInformation.initialInformation.occupation}
           </h1>
         </div>
