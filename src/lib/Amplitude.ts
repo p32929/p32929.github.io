@@ -22,7 +22,7 @@ export class Amplitude {
     // Initialize Amplitude (should be done once in your app)
     private static initialize() {
         if (!this.isInitialized) {
-            const apiKey: string = "50e81488cd17b72ddf984a542dd6d71d";
+            const apiKey: string = "e37663cf29fe51d539d511c5390b650c";
             amplitude.init(apiKey, {
                 defaultTracking: {
                     pageViews: false, // Manually tracking page views
