@@ -31,7 +31,7 @@ Sharing this repository with your friends is just one click away from here
 1. Fork the repository ( Recommended )
 2. Change the repository name to `your-github-username.github.io` by going into settings
 3. Clone the repository using `git clone YOUR-REPOSITORY-URL`
-4. Modify the variables in `src/lib/DynamicValues.ts` to add your own data and flavors.
+4. Modify the variables in `./src/lib/DynamicValues.ts` to add your own data and flavors.
 5. Run: `npm run predeploy` or `yarn predeploy`
 6. Run: `npm run deploy` or `yarn deploy`
 7. Check the `settings` of your repository, and change the `source` of the github pages to `master` branch
@@ -53,6 +53,10 @@ If you don't have them installed, install them from here: https://nodejs.org/en/
 4. Run the project using this command:
    `npm run dev` or `yarn dev`
 5. Open `localhost:3000` on your favorite browser
+
+# How to customize
+* Customize themes/colors/design: modify `./src/index.css` file
+* Customize data/routes/anything else: modify `./src/lib/DynamicValues.ts` file
 
 # Contribute
 
