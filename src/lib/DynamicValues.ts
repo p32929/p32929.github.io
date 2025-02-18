@@ -2,8 +2,8 @@ import { ICombinedInformation, IDirectMessageItem, IInitialInformation, ITitledL
 
 class DynamicValues {
     static initialInformation: IInitialInformation = {
-        name: "Fayaz Bin Salam",
-        occupation: "Software Engineer",
+        name: "Alishba Javed",
+        occupation: "Software Developer",
     }
 
     static directMessageItems: Array<IDirectMessageItem> = [
@@ -29,22 +29,22 @@ class DynamicValues {
             arr: [
                 {
                     title: "Name",
-                    desc: "Fayaz Bin Salam",
+                    desc: "Alishba Javed",
                     logo: "https://cdn-icons-png.flaticon.com/128/1077/1077012.png"
                 },
                 {
                     title: "Work Experience",
-                    desc: "7+ years",
+                    desc: "Internship at Havenir Solutions",
                     logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png"
                 },
                 {
                     title: "Languages",
-                    desc: "Bengali, English, Hindi, Urdu, Chittagonian etc",
+                    desc: "English, Hindi, Urdu etc",
                     logo: "https://cdn-icons-png.flaticon.com/128/3898/3898150.png"
                 },
                 {
                     title: "Nationality",
-                    desc: "Bangladeshi",
+                    desc: "Pakistani",
                     logo: "https://cdn-icons-png.flaticon.com/128/11701/11701027.png"
                 },
                 {
@@ -105,8 +105,8 @@ class DynamicValues {
                     logo: 'https://seeklogo.com/images/C/c-logo-1B1817C041-seeklogo.com.png',
                 },
                 {
-                    title: 'Java',
-                    logo: 'https://www.vectorlogo.zone/logos/java/java-icon.svg',
+                    title: 'C#',
+                    logo: 'https://images.seeklogo.com/logo-png/36/1/c-sharp-c-logo-png_seeklogo-363285.png',
                 },
                 {
                     title: 'Python',
@@ -115,10 +115,6 @@ class DynamicValues {
                 {
                     title: 'JavaScript',
                     logo: 'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg',
-                },
-                {
-                    title: 'Rust',
-                    logo: 'https://www.rustacean.net/assets/rustacean-flat-gesture.svg',
                 },
                 {
                     title: 'HTML',
@@ -133,16 +129,8 @@ class DynamicValues {
                     logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg',
                 },
                 {
-                    title: 'Kotlin',
-                    logo: 'https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg',
-                },
-                {
                     title: 'Dart',
                     logo: 'https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg',
-                },
-                {
-                    title: 'Go',
-                    logo: 'https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg',
                 },
             ]
         },
@@ -156,14 +144,6 @@ class DynamicValues {
                 {
                     title: 'SQL',
                     logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/ffeb437f-0d63-40e5-9bc3-041d5715d67e',
-                },
-                {
-                    title: "DynamoDB",
-                    logo: 'https://cdn.worldvectorlogo.com/logos/aws-dynamodb.svg'
-                },
-                {
-                    title: "PostgreSQL",
-                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/b0b84cdf-ac60-4f7b-b665-99ea7e8854da'
                 },
             ]
         },
@@ -224,14 +204,6 @@ class DynamicValues {
                     logo: 'https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg'
                 },
                 {
-                    title: 'ElectronJS',
-                    logo: 'https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg'
-                },
-                {
-                    title: 'Angular2+',
-                    logo: 'https://angular.io/assets/images/logos/angular/angular.svg'
-                },
-                {
                     title: 'Mongoose',
                     logo: 'https://avatars.githubusercontent.com/u/7552965?s=200&v=4'
                 },
@@ -252,20 +224,8 @@ class DynamicValues {
                     logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg'
                 },
                 {
-                    title: 'Beautiful soup',
-                    logo: 'https://github.com/3r4y/react-portfolio-template/assets/6418354/c9199eab-529b-4314-a990-c46deba899e9'
-                },
-                {
                     title: 'Numpy',
                     logo: 'https://numpy.org/images/logo.svg'
-                },
-                {
-                    title: 'Tauri',
-                    logo: 'https://raw.githubusercontent.com/tauri-apps/tauri/HEAD/app-icon.png'
-                },
-                {
-                    title: 'VueJS',
-                    logo: 'https://vuejs.org/images/logo.png'
                 },
                 {
                     title: 'Pandas',
@@ -296,10 +256,6 @@ class DynamicValues {
                     logo: 'https://www.vectorlogo.zone/logos/expoio/expoio-icon.svg'
                 },
                 {
-                    title: 'NgInx',
-                    logo: 'https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg'
-                },
-                {
                     title: 'NestJS',
                     logo: 'https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg'
                 },
@@ -309,10 +265,6 @@ class DynamicValues {
         {
             text: "Others",
             arr: [
-                {
-                    title: 'Vim',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/544px-Vimlogo.svg.png?20150726190850'
-                },
                 {
                     title: 'Android Studio',
                     logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/512px-Android_Studio_Icon_3.6.svg.png?20210301045217'
@@ -326,20 +278,8 @@ class DynamicValues {
                     logo: 'https://cdn.iconscout.com/icon/free/png-128/jira-3628861-3030001.png'
                 },
                 {
-                    title: 'AWS',
-                    logo: 'https://cdn.iconscout.com/icon/free/png-128/aws-1869025-1583149.png'
-                },
-                {
-                    title: 'DigitalOcean',
-                    logo: 'https://www.vectorlogo.zone/logos/digitalocean/digitalocean-icon.svg'
-                },
-                {
                     title: 'Figma',
                     logo: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg'
-                },
-                {
-                    title: 'Heroku',
-                    logo: 'https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg'
                 },
                 {
                     title: 'Yarn',
@@ -348,22 +288,6 @@ class DynamicValues {
                 {
                     title: 'npm',
                     logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg'
-                },
-                {
-                    title: 'Tampermonkey',
-                    logo: 'https://www.tampermonkey.net/images/ricon48.png'
-                },
-                {
-                    title: 'Greasemonkey',
-                    logo: 'https://addons.mozilla.org/user-media/addon_icons/0/748-64.png?modified=1531822767'
-                },
-                {
-                    title: 'Linux',
-                    logo: 'https://www.freepnglogos.com/uploads/linux-png/file-icons-flat-linux-svg-wikimedia-commons-6.png'
-                },
-                {
-                    title: 'Adobe Photoshop',
-                    logo: 'https://www.adobe.com/content/dam/cc/icons/photoshop-mobile.svg'
                 },
             ]
         },
@@ -829,94 +753,27 @@ class DynamicValues {
             text: "Others",
             arr: [
                 {
-                    title: 'Anywhere on the internet',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155840900-91ac076a-8d2b-45dc-b346-66f72d376d4b.png',
-                    desc: "@p32929"
-                },
-                {
                     title: 'GitHub',
                     logo: 'https://cdn-icons-png.flaticon.com/128/1051/1051275.png',
-                    link: 'https://github.com/p32929/'
+                    link: 'https://github.com/a-jay262/'
                 },
                 {
                     title: 'LinkedIn',
                     logo: 'https://user-images.githubusercontent.com/6418354/155841027-8698cb12-7ddd-4604-a4ea-c618ddbc1cd8.png',
-                    link: 'https://www.linkedin.com/in/p32929/'
+                    link: 'https://www.linkedin.com/in/alishba-javed-011085265/'
                 },
                 {
                     title: 'Facebook',
                     logo: 'https://user-images.githubusercontent.com/6418354/155840898-9e2327aa-a280-45e3-8266-8268242abda4.png',
-                    link: 'https://www.facebook.com/p32929'
-                },
-                {
-                    title: 'Twitter',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155841031-532d5d6e-797a-4da1-8064-48d266b69ab2.png',
-                    link: 'https://twitter.com/p32929'
+                    link: 'https://www.facebook.com/profile.php?id=100080466110561'
                 },
                 {
                     title: 'Instagram',
                     logo: 'https://user-images.githubusercontent.com/6418354/155841023-0b842621-56a3-42ec-81f1-3944034b09c7.png',
-                    link: 'https://www.instagram.com/p32929/'
-                },
-                {
-                    title: 'Fiverr',
-                    logo: 'https://cdn.worldvectorlogo.com/logos/fiverr-1.svg',
-                    link: 'https://www.fiverr.com/users/fayazbinsalam/'
-                },
-                {
-                    title: "Upwork",
-                    logo: "https://cdn.worldvectorlogo.com/logos/upwork-roundedsquare-1.svg",
-                    link: "https://www.upwork.com/freelancers/~017dbf657b99b0c1c1"
-                },
-                {
-                    title: "Medium",
-                    logo: "https://seeklogo.com/images/M/medium-logo-93CDCF6451-seeklogo.com.png",
-                    link: "https://medium.com/@p32929_77176"
-                },
-                {
-                    title: "xda",
-                    logo: "https://www.svgrepo.com/show/331651/xda-developers.svg",
-                    link: "https://forum.xda-developers.com/m/p32929.5346826/"
-                },
-                {
-                    title: "Product Hunt",
-                    logo: "https://seeklogo.com/images/P/product-hunt-logo-A144953C4C-seeklogo.com.png?v=637846885100000000",
-                    link: "https://www.producthunt.com/@p32929"
-                },
-                {
-                    title: "UVA Online Judge",
-                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/5e21914b-9dfd-4394-bfa3-d2e216e8ce39",
-                    link: "https://uhunt.onlinejudge.org/id/590978"
-                },
-                {
-                    title: "URI Online Judge",
-                    logo: "https://user-images.githubusercontent.com/26368939/110052090-be0a0b00-7d35-11eb-8827-993190a9568e.png",
-                    link: "https://www.beecrowd.com.br/judge/en/profile/76542"
-                },
-                {
-                    title: "Buy Me a Coffee",
-                    logo: "https://cdn.iconscout.com/icon/free/png-256/free-buymeacoffee-3628667-3029892.png",
-                    link: "https://www.buymeacoffee.com/p32929"
-                },
-                {
-                    title: 'Skype',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155840899-62c1fe8e-66a6-4492-9acc-5bd504ac21ef.png',
-                    desc: 'p32929',
-                    link: 'skype:p32929?chat'
+                    link: 'https://www.instagram.com/imaleey._/'
                 },
             ]
         },
-        {
-            text: "Thank you for visiting my portfolio",
-            arr: [
-                {
-                    title: "Click on the link button",
-                    desc: 'To create your own portfolio. It will only take around 3 minutes',
-                    logo: `https://cdn.iconscout.com/icon/premium/png-256-thumb/gift-2990371-2484427.png`,
-                    link: 'https://github.com/p32929/p32929.github.io/'
-                }
-            ]
-        }
     ]
 }
 
