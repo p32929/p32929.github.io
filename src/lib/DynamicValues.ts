@@ -45,10 +45,10 @@ class DynamicValues {
                 {
                     title: "Nationality",
                     desc: "Pakistani",
-                    logo: "https://cdn-icons-png.flaticon.com/128/11701/11701027.png"
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg"
                 },
                 {
-                    title: "Resume",
+                    title: "Resume(wait)",
                     desc: "Click the link icon to view/download",
                     link: "https://docs.google.com/document/d/1vRgTCQ-UvzjGXK7s-TR5VpmjHZ7OmSmOs5G69znPhqA/edit?usp=sharing",
                     logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png"
@@ -59,34 +59,9 @@ class DynamicValues {
             text: "Experiences",
             arr: [
                 {
-                    title: "Aqary International Group",
-                    desc: "Golang Developer",
-                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/92b039b2-9f42-4248-9803-b27e435d2d03"
-                },
-                {
-                    title: "Horizon Group of Companies",
-                    desc: "Front End Developer",
-                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/b385229a-3084-4952-84f3-134e627cc3e7"
-                },
-                {
-                    title: "6sense Bangladesh",
-                    desc: "Full Stack Developer",
-                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/80aebbb6-456a-4bba-8f32-eb48373cf76d"
-                },
-                {
-                    title: "Rich Information Technology",
-                    desc: "Lead Software Engineer",
-                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/6b35eee6-669c-42ee-934b-d9555176490b"
-                },
-                {
-                    title: "Fiverr",
-                    desc: "Freelance Software Engineer",
-                    logo: "https://cdn.worldvectorlogo.com/logos/fiverr-1.svg"
-                },
-                {
-                    title: "Upwork",
-                    desc: "Freelance Software Engineer",
-                    logo: "https://cdn.worldvectorlogo.com/logos/upwork-roundedsquare-1.svg"
+                    title: "Havenir Solutions",
+                    desc: "MERN & React-Native Developer",
+                    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNHF8WTyUzN8fteZYxBFDcJ-NVSCs7b-chbQ&s"
                 },
             ]
         }
@@ -143,7 +118,7 @@ class DynamicValues {
                 },
                 {
                     title: 'SQL',
-                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/ffeb437f-0d63-40e5-9bc3-041d5715d67e',
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png',
                 },
             ]
         },
@@ -151,16 +126,8 @@ class DynamicValues {
             text: "UI Component Libraries",
             arr: [
                 {
-                    title: 'Ant Design',
-                    logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg'
-                },
-                {
                     title: 'Material-UI',
                     logo: 'https://mui.com/static/logo.png'
-                },
-                {
-                    title: 'Shadcn',
-                    logo: 'https://ui.shadcn.com/favicon.ico'
                 },
                 {
                     title: 'Tailwind CSS',
@@ -176,10 +143,6 @@ class DynamicValues {
             text: "Libraries / Frameworks / Techs",
             arr: [
                 {
-                    title: 'Prisma',
-                    logo: 'https://www.svgrepo.com/show/374002/prisma.svg'
-                },
-                {
                     title: 'Android App Development',
                     logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg'
                 },
@@ -189,7 +152,7 @@ class DynamicValues {
                 },
                 {
                     title: 'ExpressJS',
-                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/f38ec9f9-a921-4c96-8fb3-f2a598c1d0b4'
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2_RY4COV565Nju7b4ZI5tsPkJQT1imxdFXg&s'
                 },
                 {
                     title: 'ReactJS',
@@ -197,11 +160,11 @@ class DynamicValues {
                 },
                 {
                     title: 'Redux',
-                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/77226ad4-1e3a-46ac-b287-e41ee5b5fec7'
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png'
                 },
                 {
                     title: 'React Native',
-                    logo: 'https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg'
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'
                 },
                 {
                     title: 'Mongoose',
@@ -209,7 +172,7 @@ class DynamicValues {
                 },
                 {
                     title: 'NextJS',
-                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/1b988896-5ab2-42b4-a4f3-153d42c6488c'
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJPpa5L8BQWfwHOIFMaKr5GBWr-Voo7-_OLw&s'
                 },
                 {
                     title: 'OpenCV',
@@ -233,15 +196,15 @@ class DynamicValues {
                 },
                 {
                     title: 'Matplotlib',
-                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/f5e59574-2fee-4ef3-86f6-31a331065f60'
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg'
                 },
                 {
                     title: 'Socket.io',
-                    logo: 'https://socket.io/images/logo-dark.svg'
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg'
                 },
                 {
                     title: 'Flask',
-                    logo: 'https://github.com/p32929/portfolio-v2/assets/6418354/2183bb2b-7680-49f1-a626-b1f647e7d656'
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeDJSaZ_KS_yCrn77Gc9PUC2VRehAqRBZ27g&s'
                 },
                 {
                     title: 'Docker',
@@ -257,7 +220,7 @@ class DynamicValues {
                 },
                 {
                     title: 'NestJS',
-                    logo: 'https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg'
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg'
                 },
 
             ]
@@ -380,25 +343,6 @@ class DynamicValues {
                     logo: 'https://p32929.github.io/mathfinity/icons/Icon-192.png',
                     desc: 'Simple, infinite & fun math game for everyone',
                     link: "https://p32929.github.io/mathfinity/",
-                },
-            ]
-        },
-        {
-            text: "iOS Apps",
-            arr: [
-                {
-                    title: "Adblock for YT",
-                    link: "https://apps.apple.com/au/app/adblock-for-youtube/id1592568016",
-                    logo: "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/65/7e/a8/657ea8d9-c3aa-6951-38c8-948c05cd96c3/AppIcon-0-0-85-220-0-0-0-0-4-0-0-0-2x-sRGB-0-0-0-0-0.png/246x0w.webp",
-                    desc: "Removes ads from YT videos, embedded videos on third party websites and streams.",
-
-                },
-                {
-                    title: "Al Quran by Quran Touch",
-                    link: "https://apps.apple.com/gb/app/al-quran-by-quran-touch/id585240351",
-                    logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/9d/7e/ed/9d7eedd6-e567-5251-bed6-dce7e868bb57/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/246x0w.webp",
-                    desc: "The most comprehensive Muslim App!",
-
                 },
             ]
         },
@@ -588,141 +532,6 @@ class DynamicValues {
                 }
             ]
         },
-        {
-            text: "Libraries / Packages / Crates",
-            arr: [
-                {
-                    title: 'AndroidEasySQL-Library',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                    desc: 'An Easier & Lazier approach to SQL database for Android',
-                    link: 'https://github.com/p32929/AndroidEasySQL-Library'
-                },
-                {
-                    title: 'AndroidAppLockscreen',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                    desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
-                    link: 'https://github.com/p32929/AndroidAppLockscreen'
-                },
-                {
-                    title: 'Manufacturer Battery Optimization',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                    desc: 'Simple helper class for Android Battery Optimization ignoring in some devices',
-                    link: 'https://gist.github.com/p32929/41e7af650f6a2c11e9306ab600fb9b03'
-                },
-                {
-                    title: 'MyHouse Ads Android',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                    desc: 'A library for cross promoting own apps within own apps - for Android',
-                    link: 'https://github.com/p32929/MyHouseAdsAndroid'
-                },
-                {
-                    title: 'House Ads 2',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                    desc: 'A library ( V2 ) for cross promoting own apps within own apps - for Android',
-                    link: 'https://github.com/p32929/HouseAds2'
-                },
-                {
-                    title: 'Android App Updater',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                    desc: 'A simple, Lightweight App Updater Library for Android',
-                    link: 'https://github.com/p32929/AndroidAppUpdater'
-                },
-                {
-                    title: 'Office About',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                    desc: 'A simple about screen library for Android for a Team of people',
-                    link: 'https://github.com/p32929/OfficeAbout'
-                },
-                {
-                    title: 'Json Viewer Android',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                    desc: 'A simple JSON Viewer for Android',
-                },
-                {
-                    title: 'Android Receivers Library',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                    desc: 'A library for simpler BroadcastReceiver implementations',
-                },
-                {
-                    title: 'Fay',
-                    logo: 'https://crates.io/assets/cargo.png',
-                    desc: 'A simple cross platform CLI app written in Rust to automate multiple shell ( bash or cmd ) commands',
-                    link: 'https://crates.io/crates/fay'
-                },
-                {
-                    title: 'fayfetch',
-                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
-                    desc: 'A simple wrapper for Fetch',
-                    link: 'https://www.npmjs.com/package/fayfetch'
-                },
-                {
-                    title: 'fjsondb',
-                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
-                    desc: 'A fast and simple JSON database for NodeJS',
-                    link: 'https://www.npmjs.com/package/fjsondb'
-                },
-                {
-                    title: 'str_template',
-                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
-                    desc: 'A fast and simple string templating library, written in TypeScript ( Supports both Client side and Server side JavaScript / TypeScript )',
-                    link: 'https://www.npmjs.com/package/str-template-ts'
-                },
-                {
-                    title: 'use-megamind',
-                    logo: 'https://avatars.githubusercontent.com/u/6078720?s=200&v=4',
-                    desc: ' A simple react hook for managing asynchronous function calls with ease on the client side ',
-                    link: 'https://github.com/p32929/use-megamind'
-                },
-                {
-                    title: 'EasiestDB',
-                    logo: `https://cdn.iconscout.com/icon/free/png-256/free-flutter-3521432-2944876.png`,
-                    desc: 'The Easiest and the Laziest approach to Flutter SQL Database.',
-                    link: 'https://pub.dev/packages/easiestdb'
-                },
-                {
-                    title: "Simply Wifi",
-                    logo: `https://cdn.iconscout.com/icon/free/png-256/free-flutter-3521432-2944876.png`,
-                    desc: "A simplified version of the wifi_iot package",
-                    link: "https://pub.dev/packages/simply_wifi"
-                },
-                {
-                    title: "audio_duration",
-                    logo: `https://cdn.iconscout.com/icon/free/png-256/free-flutter-3521432-2944876.png`,
-                    desc: "Just a simple flutter package to get the duration of any audio file ( like: mp3 ) in milliseconds",
-                    link: "https://pub.dev/packages/audio_duration",
-                }
-            ]
-        },
-        {
-            text: "Extensions / Plugins / Addons",
-            arr: [
-                {
-                    title: 'vscode nvim leave insertmode',
-                    logo: 'https://code.visualstudio.com/assets/images/code-stable.png',
-                    desc: 'This basic VSCode extension ensures that neovim is in normal mode switching between text editor panels.',
-                    link: 'https://marketplace.visualstudio.com/items?itemName=p32929.vscode-nvim-leave-insertmode'
-                },
-                {
-                    title: 'one console log',
-                    logo: 'https://code.visualstudio.com/assets/images/code-stable.png',
-                    desc: 'A modified version of the turbo-console-log that adds only one line of console instead of multiples.',
-                    link: 'https://marketplace.visualstudio.com/items?itemName=p32929.one-console-log',
-                },
-                {
-                    title: 'Home',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/800px-Google_Chrome_icon_%28February_2022%29.svg.png',
-                    desc: 'A Simple homepage extension created using Shadcn, React, TypeScript, usm-redux etc ',
-                    link: 'https://github.com/p32929/Home',
-                },
-                {
-                    title: 'obsidotion',
-                    logo: 'https://obsidian.md/images/obsidian-logo-gradient.svg',
-                    desc: 'Asimple obsidian plugin that syncs from/to obsidian/notion ',
-                    link: 'https://github.com/p32929/obsidotion',
-                },
-
-            ]
-        },
     ]
 
     static contacts: Array<ITitledListItem> = [
@@ -732,20 +541,13 @@ class DynamicValues {
                 {
                     title: 'WhatsApp ( Recommended )',
                     logo: 'https://user-images.githubusercontent.com/6418354/155842184-b064bf36-de8e-4317-8f8e-cb7755eed995.png',
-                    link: 'https://api.whatsapp.com/send?phone=8801796306262',
-                    desc: "+8801796306262"
+                    link: 'https://api.whatsapp.com/send?phone=923209174561',
+                    desc: "+923209174561"
                 },
                 {
                     title: 'Email',
                     logo: 'https://cdn3d.iconscout.com/3d/premium/thumb/email-address-4437044-3684811.png',
-                    desc: 'p32929.ceo@gmail.com',
-                    link: 'mailto:p32929.ceo@gmail.com'
-                },
-                {
-                    title: 'Telegram',
-                    logo: 'https://cdn-icons-png.flaticon.com/128/2111/2111646.png',
-                    desc: '@p32929',
-                    link: 'https://t.me/p32929'
+                    desc: 'alishbajaved205@gmail.com',
                 },
             ]
         },
