@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { IListItem } from "@/lib/Models";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { ImageOff, Link } from "lucide-react";
+import { ImageOff, Link, Github } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { cn, isLinkString } from "@/lib/utils";
 import { Amplitude, amplitudeEvents } from "@/lib/Amplitude";
 
@@ -33,7 +33,12 @@ const LinkIcon: React.FC<LinkIconProps> = (props) => {
     if (isLinkString(props.url ?? "")) {
       return (
         <Button variant="ghost" size="icon" className="hover:bg-transparent">
-          <Link className={cn("h-4 w-4", isHovering ? "glowing-icon animate-bounce" : "")} />
+          {
+            url.includes("github.") ?
+              <Github className={cn("h-4 w-4", isHovering ? "glowing-icon animate-bounce" : "")} />
+              :
+              <Link className={cn("h-4 w-4", isHovering ? "glowing-icon animate-bounce" : "")} />
+          }
         </Button>
       );
     }
