@@ -1,6 +1,16 @@
 # p32929.github.io
 
-3rd iteration of my personal portfolio. Visit live: https://p32929.github.io/
+The 3rd iteration of my personal portfolio — a single-page developer portfolio built with React, TypeScript, Vite and shadcn/ui. Every bit of content lives in one file, so you can fork it and make it yours quickly.
+
+**Live:** https://p32929.github.io/
+
+## Features
+
+- **One file to edit** — all your data, routes and links live in `src/lib/DynamicValues.ts`
+- **Themeable** — colours and design come from `src/index.css`
+- **shadcn/ui + Tailwind** components, dark mode included
+- **Responsive** — desktop, tablet and mobile layouts (screenshots below)
+- **Deploys to GitHub Pages** with two commands
 
 # Screenshots
 
@@ -12,19 +22,6 @@
 
 ## Mobile View
 ![image](https://github.com/user-attachments/assets/0667a45b-b81b-46a2-846c-51fd8cb58c81)
-
-# Share
-
-Sharing this repository with your friends is just one click away from here
-
-[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/p32929.github.io/)
-[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/p32929.github.io/)
-[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/p32929.github.io/)
-[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/p32929.github.io/)
-[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/p32929.github.io/)
-[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/p32929.github.io/)
-[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/p32929.github.io/)
-[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/p32929.github.io/)
 
 # Create your own portfolio
 
@@ -65,6 +62,19 @@ Thank you for your interest in contributing to this project. Please note that I 
 If you have any suggestions, feedback, or issues, feel free to open an issue on this repository. I'm always open to discussions and improvements through this channel.
 
 Thanks
+
+## Share
+
+Sharing this repository with your friends is just one click away from here
+
+[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/p32929.github.io/)
+[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/p32929.github.io/)
+[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/p32929.github.io/)
+[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/p32929.github.io/)
+[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/p32929.github.io/)
+[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/p32929.github.io/)
+[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/p32929.github.io/)
+[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/p32929.github.io/)
 
 # Support
 
