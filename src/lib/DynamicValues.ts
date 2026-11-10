@@ -392,6 +392,7 @@ class DynamicValues {
                     "title": "dobd.xyz",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759957058/p32929-Portfolio/28c88030-dee9-4b3f-b87a-47dacd6bb559.png",
                     "desc": "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/dobd-xyz"
                 },
                 {
                     "title": "s3cr3tm3",
@@ -403,6 +404,7 @@ class DynamicValues {
                     "title": "OrderZesty",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759957385/p32929-Portfolio/88cadd33-42ca-4f3b-9ec0-a3776f9fffac.png",
                     "desc": "Personal chef service delivering fresh signature meals.",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/orderzesty"
                 },
                 {
                     "title": "DramaDB",
@@ -425,22 +427,25 @@ class DynamicValues {
                     "title": "BreakingMars",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953722/p32929-Portfolio/bbmiou02w0npfsol8qme.png",
                     "desc": "#1 Leading & Effortless Prospect Perceiving Platform",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/breakingmars"
                 },
                 {
                     "title": "Voomnow",
                     "desc": "Next generation audio recorder",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953723/p32929-Portfolio/igbmfmmzeqjuzrc0enru.svg",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/voomnow"
                 },
                 {
                     "title": "Shajao",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953727/p32929-Portfolio/lv6ojs0usbvtvfz2ds7b.webp",
                     "desc": "Framing Happiness",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/shajao"
                 },
                 {
                     "title": "ChargeOnSite",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953728/p32929-Portfolio/za7co13fblvng1qcqbvs.png",
                     "desc": "Charge OnSite",
-                    "link": "https://www.chargeonsite.com/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/chargeonsite"
                 },
                 {
                     "title": "MathFinity",
@@ -476,7 +481,7 @@ class DynamicValues {
                     "title": "Instant.site",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759957834/p32929-Portfolio/Screenshot_2025-10-09_at_01-09-42_Instant.site_-_AI-Powered_Website_Generation_Platform_xmsonx.png",
                     "desc": "Transform your ideas into fully functional websites using the power of AI. No coding required, just describe what you want to build.",
-                    "link": "https://instant.site/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/instant-site"
                 },
                 {
                     "title": "AskBrain",
@@ -494,7 +499,7 @@ class DynamicValues {
                     "title": "Artul.ai",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759996496/p32929-Portfolio/a1f58de7-2e32-49a3-ab45-1e9ceca86f6b.png",
                     "desc": "Finalcial research using the help of AI",
-                    "link": "https://artul.ai/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/artul-ai"
                 },
                 {
                     "title": "node_file_manager_server",
@@ -506,7 +511,7 @@ class DynamicValues {
                     "title": "CFood",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759997876/p32929-Portfolio/932f7e37-fef3-478c-9073-a1323f5f70aa.png",
                     "desc": "A complete foods frontend for DIY soylent",
-                    "link": "https://cfood.vercel.app/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/cfood"
                 },
                 {
                     "title": "Link in bio",
@@ -536,7 +541,7 @@ class DynamicValues {
                     "title": "BBrain",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759959509/p32929-Portfolio/c11c7993-84c7-4694-b648-87f6f64987ac.png",
                     "desc": "all-in-one AI-powered chatbot, designed to write, learn, and create for you!",
-                    "link": "https://apps.apple.com/ae/app/bbrain/id6448963886"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/bbrain"
                 },
             ]
         },
@@ -638,7 +643,7 @@ class DynamicValues {
                     "title": "BBrain",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759959509/p32929-Portfolio/c11c7993-84c7-4694-b648-87f6f64987ac.png",
                     "desc": "all-in-one AI-powered chatbot, designed to write, learn, and create for you!",
-                    "link": "https://play.google.com/store/apps/details?id=com.askbrain2.app"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/bbrain"
                 },
             ]
         },
