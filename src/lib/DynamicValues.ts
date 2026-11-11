@@ -410,6 +410,7 @@ class DynamicValues {
                     "title": "DramaDB",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759956967/p32929-Portfolio/fa8624a5-6b99-42b7-838c-3041b914bdef.png",
                     "desc": "A serverless hobby project that lets you filter Asian drama by country, genre, status, year and popularity",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/dramadb"
                 },
                 {
                     "title": "Sh0Sh0",
