@@ -378,7 +378,7 @@ class DynamicValues {
             "arr": [
                 {
                     "title": "Duas",
-                    "link": "https://p32929.github.io/duas/",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/duas",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953716/p32929-Portfolio/uxrwfhg48dvg4fvyulp2.png",
                     "desc": "A collection of duas I try to regularly recite - created using flutter web"
                 },
@@ -391,8 +391,7 @@ class DynamicValues {
                 {
                     "title": "dobd.xyz",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759957058/p32929-Portfolio/28c88030-dee9-4b3f-b87a-47dacd6bb559.png",
-                    "desc": "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/dobd-xyz"
+                    "desc": "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more"
                 },
                 {
                     "title": "s3cr3tm3",
@@ -403,14 +402,12 @@ class DynamicValues {
                 {
                     "title": "OrderZesty",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759957385/p32929-Portfolio/88cadd33-42ca-4f3b-9ec0-a3776f9fffac.png",
-                    "desc": "Personal chef service delivering fresh signature meals.",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/orderzesty"
+                    "desc": "Personal chef service delivering fresh signature meals."
                 },
                 {
                     "title": "DramaDB",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759956967/p32929-Portfolio/fa8624a5-6b99-42b7-838c-3041b914bdef.png",
-                    "desc": "A serverless hobby project that lets you filter Asian drama by country, genre, status, year and popularity",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/dramadb"
+                    "desc": "A serverless hobby project that lets you filter Asian drama by country, genre, status, year and popularity"
                 },
                 {
                     "title": "Sh0Sh0",
@@ -427,38 +424,35 @@ class DynamicValues {
                 {
                     "title": "BreakingMars",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953722/p32929-Portfolio/bbmiou02w0npfsol8qme.png",
-                    "desc": "#1 Leading & Effortless Prospect Perceiving Platform",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/breakingmars"
+                    "desc": "#1 Leading & Effortless Prospect Perceiving Platform"
                 },
                 {
                     "title": "Voomnow",
                     "desc": "Next generation audio recorder",
-                    "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953723/p32929-Portfolio/igbmfmmzeqjuzrc0enru.svg",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/voomnow"
+                    "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953723/p32929-Portfolio/igbmfmmzeqjuzrc0enru.svg"
                 },
                 {
                     "title": "Shajao",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953727/p32929-Portfolio/lv6ojs0usbvtvfz2ds7b.webp",
-                    "desc": "Framing Happiness",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/shajao"
+                    "desc": "Framing Happiness"
                 },
                 {
                     "title": "ChargeOnSite",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953728/p32929-Portfolio/za7co13fblvng1qcqbvs.png",
                     "desc": "Charge OnSite",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/chargeonsite"
+                    "link": "https://www.chargeonsite.com/"
                 },
                 {
                     "title": "MathFinity",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953728/p32929-Portfolio/qxppp8ooaljeezda2ydh.png",
                     "desc": "Simple, infinite & fun math game for everyone",
-                    "link": "https://p32929.github.io/mathfinity/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/mathfinity"
                 },
                 {
                     "title": "Quran Flutter",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759956231/p32929-Portfolio/app_icon_pgruwb.png",
-                    "desc": "Simple, infinite & fun math game for everyone",
-                    "link": "https://p32929.github.io/quran_flutter/"
+                    "desc": "Read the Quran with translations, listen to 42 reciters and memorize ayat with looped audio",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/quran"
                 },
                 {
                     "title": "Ollama Models Explorer",
@@ -482,7 +476,7 @@ class DynamicValues {
                     "title": "Instant.site",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759957834/p32929-Portfolio/Screenshot_2025-10-09_at_01-09-42_Instant.site_-_AI-Powered_Website_Generation_Platform_xmsonx.png",
                     "desc": "Transform your ideas into fully functional websites using the power of AI. No coding required, just describe what you want to build.",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/instant-site"
+                    "link": "https://instant.site/"
                 },
                 {
                     "title": "AskBrain",
@@ -500,7 +494,7 @@ class DynamicValues {
                     "title": "Artul.ai",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759996496/p32929-Portfolio/a1f58de7-2e32-49a3-ab45-1e9ceca86f6b.png",
                     "desc": "Finalcial research using the help of AI",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/artul-ai"
+                    "link": "https://artul.ai/"
                 },
                 {
                     "title": "node_file_manager_server",
@@ -542,7 +536,7 @@ class DynamicValues {
                     "title": "BBrain",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759959509/p32929-Portfolio/c11c7993-84c7-4694-b648-87f6f64987ac.png",
                     "desc": "all-in-one AI-powered chatbot, designed to write, learn, and create for you!",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/bbrain"
+                    "link": "https://apps.apple.com/ae/app/bbrain/id6448963886"
                 },
             ]
         },
@@ -644,7 +638,7 @@ class DynamicValues {
                     "title": "BBrain",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759959509/p32929-Portfolio/c11c7993-84c7-4694-b648-87f6f64987ac.png",
                     "desc": "all-in-one AI-powered chatbot, designed to write, learn, and create for you!",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/bbrain"
+                    "link": "https://play.google.com/store/apps/details?id=com.askbrain2.app"
                 },
             ]
         },
