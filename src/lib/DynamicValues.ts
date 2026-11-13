@@ -380,7 +380,7 @@ class DynamicValues {
                     "title": "Duas",
                     "link": "https://openstore.pfay.workers.dev/app/p32929/duas",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953716/p32929-Portfolio/uxrwfhg48dvg4fvyulp2.png",
-                    "desc": "A collection of duas I try to regularly recite - created using flutter web"
+                    "desc": "Keep the duas you recite in one calm place, find more in trusted dua books, and read their meaning in your own language"
                 },
                 {
                     "title": "Sha1ToMd5",
@@ -451,13 +451,13 @@ class DynamicValues {
                 {
                     "title": "MathFinity",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953728/p32929-Portfolio/qxppp8ooaljeezda2ydh.png",
-                    "desc": "Simple, infinite & fun math game for everyone",
+                    "desc": "A fast arithmetic game. Solve as many sums as you can before the timer runs out, then see how you did on each one",
                     "link": "https://openstore.pfay.workers.dev/app/p32929/mathfinity"
                 },
                 {
                     "title": "Quran Flutter",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759956231/p32929-Portfolio/app_icon_pgruwb.png",
-                    "desc": "Read the Quran with translations, listen to 42 reciters and memorize ayat with looped audio",
+                    "desc": "Read the Quran with translations, listen to 42 reciters and memorize ayat with looped audio, free and with no ads",
                     "link": "https://openstore.pfay.workers.dev/app/p32929/quran"
                 },
                 {
@@ -511,7 +511,7 @@ class DynamicValues {
                 {
                     "title": "CFood",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759997876/p32929-Portfolio/932f7e37-fef3-478c-9073-a1323f5f70aa.png",
-                    "desc": "A complete foods frontend for DIY soylent",
+                    "desc": "Browse over 10,000 nutritionally complete DIY recipes, filter by cost and diet, and turn the ones you pick into one shopping list",
                     "link": "https://openstore.pfay.workers.dev/app/p32929/cfood"
                 },
                 {
