@@ -384,7 +384,7 @@ class DynamicValues {
                 },
                 {
                     "title": "Sha1ToMd5",
-                    "link": "https://p32929.github.io/Sha1ToMd5/",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/sha1tomd5",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953716/p32929-Portfolio/fkjurkfivkg7sekog3zd.png",
                     "desc": "A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work. "
                 },
@@ -396,7 +396,7 @@ class DynamicValues {
                 },
                 {
                     "title": "s3cr3tm3",
-                    "link": "https://s3cr3tm3.netlify.app/",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/s3cr3tm3",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953717/p32929-Portfolio/lyvlfnllm5nz2grxpy2j.png",
                     "desc": "Share secret messages secretely"
                 },
@@ -416,13 +416,13 @@ class DynamicValues {
                     "title": "Sh0Sh0",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953720/p32929-Portfolio/vuvvkxybhvjr2xatae3c.png",
                     "desc": "A beautifully created Absolutely FREE URL shortener for everyone made using React Shadcn Firebase. ",
-                    "link": "https://sh0sh0.netlify.app/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/sh0sh0"
                 },
                 {
                     "title": "Github Trending",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953721/p32929-Portfolio/bq04mew5dk4xypq93m4f.png",
                     "desc": "A simple webpage that scrapes github LIVE in front of your eyes and gets the list of trending repositories",
-                    "link": "https://bit.ly/ghtrr"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/github-trending-repos"
                 },
                 {
                     "title": "BreakingMars",
@@ -464,19 +464,19 @@ class DynamicValues {
                     "title": "Ollama Models Explorer",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759956801/p32929-Portfolio/a8efa895-afde-42e0-9a45-aba8398b6d69.png",
                     "desc": "A modern, dark-themed UI for exploring and filtering Ollama AI models",
-                    "link": "https://ollama-models-explorer.vercel.app/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/ollama-models-explorer"
                 },
                 {
                     "title": "Notes Offline",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759956889/p32929-Portfolio/b140a7e0-76dd-4c49-ab58-f2ff217cd1cf.png",
                     "desc": "A modern, offline-first note-taking application that works entirely in your browser",
-                    "link": "https://p32929.github.io/notes/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/notes-offline"
                 },
                 {
                     "title": "ghcdn",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759957441/p32929-Portfolio/4eb265f5-4bef-449d-ad98-14de6d6b1c6e.png",
                     "desc": "A Next.js application that serves GitHub and Gist content as a CDN",
-                    "link": "https://ghcdn.vercel.app/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/ghcdn"
                 },
                 {
                     "title": "Instant.site",
@@ -488,13 +488,13 @@ class DynamicValues {
                     "title": "AskBrain",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759958532/p32929-Portfolio/cadf4a8d-1fe6-46ce-aa40-804ccaf6d4e4.png",
                     "desc": "Intelligent Chat Companion",
-                    "link": "https://askbrain2.com/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/bbrain"
                 },
                 {
                     "title": "openai-gemini-api-key-rotator",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759959873/p32929-Portfolio/d954bab9-ef3c-4a03-9e01-fd0c780b8bce.png",
                     "desc": "Node.js proxy server for automatic API key rotation across multiple LLM providers (OpenAI, Gemini, Groq, OpenRouter, etc.). Zero external dependencies.",
-                    "link": "https://github.com/p32929/openai-gemini-api-key-rotator"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/openai-gemini-api-key-rotator"
                 },
                 {
                     "title": "Artul.ai",
@@ -506,7 +506,7 @@ class DynamicValues {
                     "title": "node_file_manager_server",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759997260/p32929-Portfolio/4539f4ca-8dd7-4886-9b59-06185792c4cd.png",
                     "desc": "A lightweight, self-hosted file manager with zero external dependencies",
-                    "link": "https://github.com/p32929/node_file_manager_server"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/node-file-manager-server"
                 },
                 {
                     "title": "CFood",
@@ -518,7 +518,7 @@ class DynamicValues {
                     "title": "Link in bio",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759998616/p32929-Portfolio/74ae0b2d-243f-4dda-9ef5-e3c026cb9f17.png",
                     "desc": "An elegant, single-page HTML link-in-bio, perfect for everyone",
-                    "link": "https://p32929.github.io/link_in_bio/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/link-in-bio"
                 },
                 
             ]
@@ -528,13 +528,13 @@ class DynamicValues {
             "arr": [
                 {
                     "title": "Adblock for YT",
-                    "link": "https://apps.apple.com/au/app/adblock-for-youtube/id1592568016",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/adblock-youtube-safari-ios",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953729/p32929-Portfolio/akip3ptlsv4hve4t8kse.webp",
                     "desc": "Removes ads from YT videos, embedded videos on third party websites and streams."
                 },
                 {
                     "title": "Al Quran by Quran Touch",
-                    "link": "https://apps.apple.com/gb/app/al-quran-by-quran-touch/id585240351",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/al-quran",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953730/p32929-Portfolio/vl2xlb59cr4mz1d4ex9j.webp",
                     "desc": "The most comprehensive Muslim App!"
                 },
@@ -655,25 +655,25 @@ class DynamicValues {
                     "title": "PotatoTimer",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953743/p32929-Portfolio/lataemg2hhqzsapj6myo.ico",
                     "desc": "A pomotodo app that forces you to take a break - created using ElectronJS",
-                    "link": "https://github.com/p32929/Electron-Pomotodo"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/potatotimer"
                 },
                 {
                     "title": "Pomota",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953744/p32929-Portfolio/mmfrjgsasnmxk26gocgr.png",
                     "desc": "A simple user-friendly cross-platform tauri based pomodoro timer app that forces you to take a break",
-                    "link": "https://github.com/p32929/pomota"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/pomota"
                 },
                 {
                     "title": "google calender widget",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953744/p32929-Portfolio/thx3jsstoglsftxemvsi.png",
                     "desc": "An unofficial google calendar desktop widget for Windows, Mac and Linux ",
-                    "link": "https://github.com/p32929/google-calender-widget"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/google-calendar-widget"
                 },
                 {
                     "title": "MacJuiceMonitor",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953745/p32929-Portfolio/nixhwhleqc36jhpd3wth.png",
                     "desc": "Your essential tool for keeping track of all your Bluetooth-connected devices' battery levels, conveniently located in the macOS menu bar",
-                    "link": "https://github.com/p32929/mac-juice-monitor"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/macjuicemonitor"
                 }
             ]
         },
@@ -684,31 +684,31 @@ class DynamicValues {
                     "title": "Shortcut Virus Remover",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953746/p32929-Portfolio/aokzrnxlpexmy7qikw4l.png",
                     "desc": "Shortcut virus remover script for Windows",
-                    "link": "https://github.com/p32929/Shortcut-Virus-Remover"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/shortcut-virus-remover"
                 },
                 {
                     "title": "Fay",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953747/p32929-Portfolio/gbfittv1n99ud3u4b9hp.png",
                     "desc": "A simple cross platform CLI app written in Rust to automate multiple shell ( bash or cmd ) commands",
-                    "link": "https://crates.io/crates/fay"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/fay"
                 },
                 {
                     "title": "SIIN",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953747/p32929-Portfolio/itynf13rmr9yawofgigu.png",
                     "desc": "A batch installer that downloads and installs a list of apps, written in Rust ( Kinda like Ninite )",
-                    "link": "https://crates.io/crates/siin"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/siin"
                 },
                 {
                     "title": "ccheckpoints",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759960038/p32929-Portfolio/4c40c36f-5751-4771-879a-02da5684e69b.png",
                     "desc": "A checkpoint system for Claude Code CLI that automatically tracks your coding sessions. Inspired by Cursor IDE's checkpoint feature",
-                    "link": "https://github.com/p32929/ccheckpoints"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/ccheckpoints"
                 },
                 {
                     "title": "CMDN",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759969311/p32929-Portfolio/c2f17ede-54ae-424c-aa38-e8f915bc89c7.png",
                     "desc": "A simple CLI notification tool - just run any command with cmdn command and get notified when it's done!",
-                    "link": "https://github.com/p32929/cmdn"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/cmdn"
                 },
                 
             ]
@@ -720,13 +720,13 @@ class DynamicValues {
                     "title": "Dingtone Bot",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953748/p32929-Portfolio/jynw5l2hujbprz9q4v5e.png",
                     "desc": "A bot made using Python and UIAutomator2 to automate watching ads on certain apps to get credits",
-                    "link": "https://drive.google.com/file/d/159D_tco3qkpgh2a3CWz-f0ixPEpeUN8V/view?usp=sharing"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/dingtone-bot"
                 },
                 {
                     "title": "Indeed-Linkedin bot",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953749/p32929-Portfolio/necalptsa0wbyzwzfrwh.png",
                     "desc": "An automation bot created using playwright to automate applying jobs on Indeed and Linkedin",
-                    "link": "https://drive.google.com/file/d/10Xc4Y0Z5KXxKhb9StF3bQfivYHHeNZsa/view?usp=sharing"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/indeed-linkedin-bot"
                 }
             ]
         },
@@ -737,43 +737,43 @@ class DynamicValues {
                     "title": "AndroidEasySQL-Library",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953749/p32929-Portfolio/n8bozwxyx4rprc5ycc3a.svg",
                     "desc": "An Easier & Lazier approach to SQL database for Android",
-                    "link": "https://github.com/p32929/AndroidEasySQL-Library"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/androideasysql-library"
                 },
                 {
                     "title": "AndroidAppLockscreen",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953753/p32929-Portfolio/p3v3uqavlmgbibk4gi5d.svg",
                     "desc": "An Easier & Lazier approach to getting runtime permission in Android ",
-                    "link": "https://github.com/p32929/AndroidAppLockscreen"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/androidapplockscreen"
                 },
                 {
                     "title": "Manufacturer Battery Optimization",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953755/p32929-Portfolio/fnsdi6zs4luri3rn3eyz.svg",
                     "desc": "Simple helper class for Android Battery Optimization ignoring in some devices",
-                    "link": "https://gist.github.com/p32929/41e7af650f6a2c11e9306ab600fb9b03"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/manufacturer-battery-optimization"
                 },
                 {
                     "title": "MyHouse Ads Android",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953757/p32929-Portfolio/e5veb7eiqkalchfv1jz4.svg",
                     "desc": "A library for cross promoting own apps within own apps - for Android",
-                    "link": "https://github.com/p32929/MyHouseAdsAndroid"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/myhouse-ads-android"
                 },
                 {
                     "title": "House Ads 2",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953759/p32929-Portfolio/guc2wl2f1jehecdhkcub.svg",
                     "desc": "A library ( V2 ) for cross promoting own apps within own apps - for Android",
-                    "link": "https://github.com/p32929/HouseAds2"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/house-ads-2"
                 },
                 {
                     "title": "Android App Updater",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953761/p32929-Portfolio/cyijnfqkcjafqmdbx8yh.svg",
                     "desc": "A simple, Lightweight App Updater Library for Android",
-                    "link": "https://github.com/p32929/AndroidAppUpdater"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/android-app-updater"
                 },
                 {
                     "title": "Office About",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953763/p32929-Portfolio/fqf0l1opfn8yywxtw1ie.svg",
                     "desc": "A simple about screen library for Android for a Team of people",
-                    "link": "https://github.com/p32929/OfficeAbout"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/office-about"
                 },
                 {
                     "title": "Json Viewer Android",
@@ -789,55 +789,55 @@ class DynamicValues {
                     "title": "Fay",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953768/p32929-Portfolio/mtf6bvd8hhi0unmqa9y4.png",
                     "desc": "A simple cross platform CLI app written in Rust to automate multiple shell ( bash or cmd ) commands",
-                    "link": "https://crates.io/crates/fay"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/fay"
                 },
                 {
                     "title": "fayfetch",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953769/p32929-Portfolio/ldcqcxsrpq9ezy8t4mwu.png",
                     "desc": "A simple wrapper for Fetch",
-                    "link": "https://www.npmjs.com/package/fayfetch"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/fayfetch"
                 },
                 {
                     "title": "fjsondb",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953769/p32929-Portfolio/wkomtfhcknwmkusxkywk.png",
                     "desc": "A fast and simple JSON database for NodeJS",
-                    "link": "https://www.npmjs.com/package/fjsondb"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/fjsondb"
                 },
                 {
                     "title": "str_template",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953770/p32929-Portfolio/hstypwqu8smet00nejpx.png",
                     "desc": "A fast and simple string templating library, written in TypeScript ( Supports both Client side and Server side JavaScript / TypeScript )",
-                    "link": "https://www.npmjs.com/package/str-template-ts"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/str-template"
                 },
                 {
                     "title": "use-megamind",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953770/p32929-Portfolio/k8eik3jt572pm6gwisl2.png",
                     "desc": " A simple react hook for managing asynchronous function calls with ease on the client side ",
-                    "link": "https://github.com/p32929/use-megamind"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/use-megamind"
                 },
                 {
                     "title": "EasiestDB",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953771/p32929-Portfolio/wz0dtwh1l54flh0jw7wl.png",
                     "desc": "The Easiest and the Laziest approach to Flutter SQL Database.",
-                    "link": "https://pub.dev/packages/easiestdb"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/easiestdb"
                 },
                 {
                     "title": "Simply Wifi",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953771/p32929-Portfolio/etyle21lx8fn2bx1noaj.png",
                     "desc": "A simplified version of the wifi_iot package",
-                    "link": "https://pub.dev/packages/simply_wifi"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/simply-wifi"
                 },
                 {
                     "title": "audio_duration",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953772/p32929-Portfolio/plbqz7r3fvripuhztsuk.png",
                     "desc": "Just a simple flutter package to get the duration of any audio file ( like: mp3 ) in milliseconds",
-                    "link": "https://pub.dev/packages/audio_duration"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/audio-duration"
                 },
                 {
                     "title": "go_easy",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759998378/p32929-Portfolio/900f80e1-ef6c-4208-99c3-9cc798f9089e.png",
                     "desc": "A custom Golang / Go compiler that makes unused variables warning instead of error to make running Go easier and faster",
-                    "link": "https://github.com/p32929/go_easy"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/go-easy"
                 },
                 
             ]
@@ -849,25 +849,25 @@ class DynamicValues {
                     "title": "vscode nvim leave insertmode",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953773/p32929-Portfolio/jh0hcuo6bd9b4hexr3un.png",
                     "desc": "This basic VSCode extension ensures that neovim is in normal mode switching between text editor panels.",
-                    "link": "https://marketplace.visualstudio.com/items?itemName=p32929.vscode-nvim-leave-insertmode"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/vscode-nvim-leave-insertmode"
                 },
                 {
                     "title": "one console log",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953774/p32929-Portfolio/rghqm4bddealamuukvtg.png",
                     "desc": "A modified version of the turbo-console-log that adds only one line of console instead of multiples.",
-                    "link": "https://marketplace.visualstudio.com/items?itemName=p32929.one-console-log"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/one-console-log"
                 },
                 {
                     "title": "Home",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953774/p32929-Portfolio/zyremw2r9kjgt19upvrw.png",
                     "desc": "A Simple homepage extension created using Shadcn, React, TypeScript, usm-redux etc ",
-                    "link": "https://github.com/p32929/Home"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/home"
                 },
                 {
                     "title": "obsidotion",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953776/p32929-Portfolio/x8ci9sbwrt2xqmvgneeo.svg",
                     "desc": "Asimple obsidian plugin that syncs from/to obsidian/notion ",
-                    "link": "https://github.com/p32929/obsidotion"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/obsidotion"
                 }
             ]
         }
