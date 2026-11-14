@@ -652,6 +652,12 @@ class DynamicValues {
             "text": "Desktop Apps",
             "arr": [
                 {
+                    "title": "Roxaruu",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/roxaruu/icon.png",
+                    "desc": "A keyboard-first code editor with terminals built in. Every shortcut is shown where it applies. On macOS, Windows, Linux and any browser",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/roxaruu"
+                },
+                {
                     "title": "PotatoTimer",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953743/p32929-Portfolio/lataemg2hhqzsapj6myo.ico",
                     "desc": "A pomotodo app that forces you to take a break - created using ElectronJS",
