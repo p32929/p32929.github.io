@@ -7,55 +7,69 @@
 <meta name="description" content="Share this project with your friends in just a click.">
 <meta name="color-scheme" content="light dark">
 <style>
-  :root { --bg:#f6f7fb; --card:#fff; --text:#111827; --muted:#6b7280; --line:#e5e7eb; --chip:#f3f4f6; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#0b0f17; --card:#131a24; --text:#e5e7eb; --muted:#9ca3af; --line:#243041; --chip:#1b2431; } }
+  :root { --page:#ffffff; --panel:#fafaf9; --bar:#f3f2f1; --line:#e7e5e4; --dot:#d6d3d1; --text:#1c1917; --muted:#78716c; --accent:#1d4ed8; --hover:#f0efed; --on:#ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --page:#0d1117; --panel:#161b22; --bar:#1c2128; --line:#30363d; --dot:#484f58; --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; --hover:#1f252d; --on:#0d1117; } }
   * { box-sizing:border-box; }
   body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px 16px;
-    background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
-  main { width:100%; max-width:560px; background:var(--card); border:1px solid var(--line); border-radius:20px; padding:28px; }
-  .eyebrow { font-size:13px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin:0 0 6px; }
-  h1 { font-size:26px; margin:0 0 6px; word-break:break-word; }
-  .desc { color:var(--muted); margin:0 0 6px; line-height:1.5; }
-  .url { display:inline-block; font-size:14px; color:var(--muted); text-decoration:none; margin-bottom:22px; word-break:break-all; }
-  .url:hover { text-decoration:underline; }
-  .grid { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
-  .btn { display:flex; align-items:center; gap:12px; padding:13px 14px; border-radius:14px; border:1px solid var(--line);
-    background:var(--chip); color:var(--text); font:inherit; font-size:15px; font-weight:600; text-decoration:none; cursor:pointer; text-align:left; }
-  .btn:hover { border-color:var(--muted); }
-  .btn:focus-visible { outline:2px solid #2563eb; outline-offset:2px; }
-  .ico { width:34px; height:34px; border-radius:10px; display:grid; place-items:center; flex:none; color:#fff; font-weight:800; font-size:16px; }
-  .ico svg { width:18px; height:18px; }
-  .wide { grid-column:1 / -1; justify-content:center; background:#2563eb; border-color:#2563eb; color:#fff; }
-  .wide .ico { background:rgba(255,255,255,.18); }
-  footer { margin-top:22px; display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; font-size:14px; }
-  footer a { color:var(--muted); }
-  @media (max-width:420px) { main { padding:22px 18px; } .grid { grid-template-columns:1fr; } }
+    background:var(--page); color:var(--text); font:15px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace; }
+  .win { width:100%; max-width:600px; background:var(--panel); border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  .bar { position:relative; height:33px; background:var(--bar); border-bottom:1px solid var(--line); display:flex; align-items:center; justify-content:center;
+    font-size:12px; font-weight:500; color:var(--muted); }
+  .dots { position:absolute; left:13px; top:12px; display:flex; gap:6px; }
+  .dots i { width:10px; height:10px; border-radius:50%; background:var(--dot); }
+  .body { padding:22px 26px 24px; }
+  .cmd { margin:0; font-weight:500; overflow-wrap:anywhere; }
+  .cmd b, .p { color:var(--accent); font-weight:700; }
+  h1 { font-size:28px; line-height:1.2; margin:14px 0 6px; word-break:break-word; }
+  .desc { color:var(--muted); margin:0 0 20px; font-size:14px; }
+  .label { color:var(--muted); font-size:13px; margin:0 0 8px; }
+  .menu { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; }
+  .opt { display:flex; align-items:center; gap:10px; padding:11px 12px; border:1px solid var(--line); border-radius:8px;
+    background:var(--panel); color:var(--text); font:inherit; font-size:14px; text-decoration:none; cursor:pointer; text-align:left; }
+  .opt:hover { background:var(--hover); border-color:var(--muted); }
+  .opt:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  .opt kbd { font:inherit; font-size:12px; font-weight:700; color:var(--accent); border:1px solid var(--line); border-radius:5px; padding:1px 6px; flex:none; }
+  .opt span { flex:1; }
+  .opt .go { flex:none; color:var(--muted); }
+  .wide { grid-column:1 / -1; background:var(--accent); border-color:var(--accent); color:var(--on); font-weight:700; }
+  .wide:hover { background:var(--accent); opacity:.92; }
+  .wide kbd { color:var(--on); border-color:currentColor; opacity:.85; }
+  .wide .go { color:var(--on); }
+  .foot { margin-top:22px; padding-top:16px; border-top:1px dashed var(--line); display:flex; gap:18px; flex-wrap:wrap; font-size:13px; }
+  .foot a { color:var(--muted); text-decoration:none; }
+  .foot a:hover { color:var(--accent); }
+  .hint { color:var(--muted); font-size:12px; margin:14px 0 0; }
+  @media (max-width:480px) { .body { padding:18px 16px 20px; } .opt { padding:10px; gap:8px; } .opt .go { display:none; } h1 { font-size:24px; } .hint { display:none; } }
 </style>
 </head>
 <body>
-<main>
-  <p class="eyebrow">Share this with your friends</p>
-  <h1 id="name">Fayaz Bin Salam</h1>
-  <p class="desc" id="desc">Apps, tools and libraries by Fayaz Bin Salam.</p>
-  <a class="url" id="url" href="https://p32929.github.io/">https://p32929.github.io/</a>
+<main class="win">
+  <div class="bar"><div class="dots"><i></i><i></i><i></i></div><span id="tab">~/share</span></div>
+  <div class="body">
+    <p class="cmd"><b>$</b> share <span id="target">p32929.github.io</span></p>
+    <h1 id="name">Fayaz Bin Salam</h1>
+    <p class="desc" id="desc">Apps, tools and libraries by Fayaz Bin Salam.</p>
 
-  <div class="grid" id="grid">
-    <button class="btn wide" id="native" hidden><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></span>Share with an app on this device</button>
-    <a class="btn" data-net="facebook" target="_blank" rel="noopener"><span class="ico" style="background:#1877f2">f</span>Facebook</a>
-    <a class="btn" data-net="x" target="_blank" rel="noopener"><span class="ico" style="background:#000">X</span>X (Twitter)</a>
-    <a class="btn" data-net="linkedin" target="_blank" rel="noopener"><span class="ico" style="background:#0a66c2">in</span>LinkedIn</a>
-    <a class="btn" data-net="whatsapp" target="_blank" rel="noopener"><span class="ico" style="background:#25d366"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5z"/></svg></span>WhatsApp</a>
-    <a class="btn" data-net="telegram" target="_blank" rel="noopener"><span class="ico" style="background:#229ed9"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 3.5 2.5 11l7 2.5m12-10-4 17-8-7m12-10-12 10v6l3.5-3.5"/></svg></span>Telegram</a>
-    <a class="btn" data-net="reddit" target="_blank" rel="noopener"><span class="ico" style="background:#ff4500"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><ellipse cx="12" cy="14" rx="8" ry="5.5"/><circle cx="18.5" cy="4.5" r="1.5"/><path d="M12 8.5l1.5-5 5 1M9 13.5h.01M15 13.5h.01M9.5 16.5c1.5 1 3.5 1 5 0"/></svg></span>Reddit</a>
-    <a class="btn" data-net="email"><span class="ico" style="background:#6b7280"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>Email</a>
-    <button class="btn" id="copy"><span class="ico" style="background:#374151"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></span><span id="copyText">Copy link</span></button>
+    <p class="label"># pick where to share it</p>
+    <div class="menu">
+      <button class="opt wide" id="native" hidden><kbd>s</kbd><span>share with an app on this device</span><span class="go">→</span></button>
+      <a class="opt" data-net="facebook" data-key="f" target="_blank" rel="noopener"><kbd>f</kbd><span>facebook</span><span class="go">→</span></a>
+      <a class="opt" data-net="x" data-key="x" target="_blank" rel="noopener"><kbd>x</kbd><span>x (twitter)</span><span class="go">→</span></a>
+      <a class="opt" data-net="linkedin" data-key="l" target="_blank" rel="noopener"><kbd>l</kbd><span>linkedin</span><span class="go">→</span></a>
+      <a class="opt" data-net="whatsapp" data-key="w" target="_blank" rel="noopener"><kbd>w</kbd><span>whatsapp</span><span class="go">→</span></a>
+      <a class="opt" data-net="telegram" data-key="t" target="_blank" rel="noopener"><kbd>t</kbd><span>telegram</span><span class="go">→</span></a>
+      <a class="opt" data-net="reddit" data-key="r" target="_blank" rel="noopener"><kbd>r</kbd><span>reddit</span><span class="go">→</span></a>
+      <a class="opt" data-net="email" data-key="e"><kbd>e</kbd><span>email</span><span class="go">→</span></a>
+      <button class="opt" id="copy" data-key="c"><kbd>c</kbd><span id="copyText">copy link</span><span class="go">⧉</span></button>
+    </div>
+    <p class="hint">tip: press a key to pick an option</p>
+
+    <div class="foot">
+      <a id="back" href="https://p32929.github.io/">$ open project</a>
+      <a href="https://p32929.github.io/support/">$ support</a>
+      <a href="https://p32929.github.io/">$ more projects</a>
+    </div>
   </div>
-
-  <footer>
-    <a id="back" href="https://p32929.github.io/">Open the project</a>
-    <a href="https://p32929.github.io/support/">Support my work</a>
-    <a href="https://p32929.github.io/">More projects</a>
-  </footer>
 </main>
 <script>
   // Only a plain repo name is accepted; anything else shares the portfolio.
@@ -67,8 +81,9 @@
 
   function show() {
     document.getElementById("name").textContent = title;
-    var u = document.getElementById("url"); u.textContent = url; u.href = url;
-    document.getElementById("back").href = url;
+    document.getElementById("target").textContent = url.replace(/^https:\/\//, "").replace(/\/$/, "");
+    document.getElementById("tab").textContent = ok ? "~/share/" + repo : "~/share";
+    var back = document.getElementById("back"); back.href = url; back.textContent = ok ? "$ open project" : "$ open portfolio";
     document.title = "Share " + title;
     var e = encodeURIComponent, links = {
       facebook: "https://www.facebook.com/sharer/sharer.php?u=" + e(url),
@@ -84,6 +99,7 @@
   show();
 
   if (ok) {
+    document.getElementById("desc").textContent = "A project by Fayaz Bin Salam.";
     fetch("https://api.github.com/repos/p32929/" + encodeURIComponent(repo))
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (d) {
@@ -93,20 +109,27 @@
         show();
       })
       .catch(function () {});
-    document.getElementById("desc").textContent = "A project by Fayaz Bin Salam.";
   }
 
   var nativeBtn = document.getElementById("native");
   if (navigator.share) {
     nativeBtn.hidden = false;
+    nativeBtn.dataset.key = "s";
     nativeBtn.onclick = function () { navigator.share({ title: title, text: text, url: url }).catch(function () {}); };
   }
   document.getElementById("copy").onclick = function () {
     var t = document.getElementById("copyText");
-    var done = function () { t.textContent = "Copied!"; setTimeout(function () { t.textContent = "Copy link"; }, 1600); };
+    var done = function () { t.textContent = "copied!"; setTimeout(function () { t.textContent = "copy link"; }, 1600); };
     if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function () { prompt("Copy this link", url); });
     else prompt("Copy this link", url);
   };
+
+  // Keyboard shortcuts: the letter shown next to each option.
+  document.addEventListener("keydown", function (ev) {
+    if (ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var el = document.querySelector('[data-key="' + ev.key.toLowerCase() + '"]:not([hidden])');
+    if (el) { ev.preventDefault(); el.click(); }
+  });
 </script>
 </body>
 </html>
