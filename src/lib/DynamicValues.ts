@@ -494,7 +494,7 @@ class DynamicValues {
                     "title": "openai-gemini-api-key-rotator",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759959873/p32929-Portfolio/d954bab9-ef3c-4a03-9e01-fd0c780b8bce.png",
                     "desc": "Node.js proxy server for automatic API key rotation across multiple LLM providers (OpenAI, Gemini, Groq, OpenRouter, etc.). Zero external dependencies.",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/openai-gemini-api-key-rotator"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/rotato"
                 },
                 {
                     "title": "Artul.ai",
@@ -506,7 +506,7 @@ class DynamicValues {
                     "title": "node_file_manager_server",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759997260/p32929-Portfolio/4539f4ca-8dd7-4886-9b59-06185792c4cd.png",
                     "desc": "A lightweight, self-hosted file manager with zero external dependencies",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/node-file-manager-server"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/hopper"
                 },
                 {
                     "title": "CFood",
@@ -551,11 +551,13 @@ class DynamicValues {
             "arr": [
                 {
                     "title": "Al Quran by Quran Touch",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/al-quran",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953730/p32929-Portfolio/wbqu2kumx4x1gflzyrwk.webp",
                     "desc": "The most comprehensive Muslim App!"
                 },
                 {
                     "title": "Thamao",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/thamao",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759959657/p32929-Portfolio/96a6581f-d8da-45d6-8f81-fbc174770011.png",
                     "desc": "বাংলাদেশে স্মার্টফোনের চুরি এবার অসম্ভব",
                 },
@@ -563,25 +565,29 @@ class DynamicValues {
                     "title": "Desplash",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953732/p32929-Portfolio/tjep6ry89lcaugkag7lc.png",
                     "desc": "Automatic Free High Quality Wallpapers powered by Unsplash.com",
-                    "link": "https://www.xda-developers.com/desplash-wallpaper-app-unsplash/"
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/desplash"
                 },
                 {
                     "title": "The Great Postman",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/the-great-postman",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953733/p32929-Portfolio/lmrghcs9ldwdh7oopndw.png",
                     "desc": "Powerful, Lightweight REST API client for Android",
                 },
                 {
                     "title": "Sleepy - Addiction Remover",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/put-phone-down",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953733/p32929-Portfolio/w8t9tdvtahlevnct5fm3.png",
                     "desc": "The one and only EFFECTIVE addiction remover on Google Play store",
                 },
                 {
                     "title": "Best CGPA Calculator",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/cgpa-calculator",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953734/p32929-Portfolio/l73jlewnduvk8trhfwhw.png",
                     "desc": "A simple yet effective CGPA Calculator for University students",
                 },
                 {
                     "title": "Buy Sell BD",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/buy-sell-bd",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953735/p32929-Portfolio/unnr5vmmsj3vc01m0cis.png",
                     "desc": "A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods",
                 },
@@ -592,41 +598,49 @@ class DynamicValues {
                 },
                 {
                     "title": "I am free",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/i-am-free",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953736/p32929-Portfolio/wjfouxqiq7opw9rikcs5.png",
                     "desc": "বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE",
                 },
                 {
                     "title": "Awesome NCTB",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/awesome-nctb",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953737/p32929-Portfolio/jyhb68lrsgxorjkqkwcr.png",
                     "desc": "Download NCTB Books easily and Free",
                 },
                 {
                     "title": "বৃক্ষ ( Brikkho )",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/brikkho",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953737/p32929-Portfolio/lmgjxmedakpambijfiwf.png",
                     "desc": "Learn about trees in your fingertips",
                 },
                 {
                     "title": "IQQuiz",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/iqquiz",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953738/p32929-Portfolio/gfn5thxnv1sscpzzi1jb.jpg",
                     "desc": "A simple IQ game",
                 },
                 {
                     "title": "BirdsLover",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/birdslover",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953739/p32929-Portfolio/zllbyinuroofovnwsemr.png",
                     "desc": "Learn about birds in your fingertips",
                 },
                 {
                     "title": "Animal Lover",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/animal-lover",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953739/p32929-Portfolio/mphgkw01iqmxbwlysbxr.png",
                     "desc": "Learn about birds in your fingertips",
                 },
                 {
                     "title": "Jibanananda Recitation (Abritti)",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/jibanananda-recitation",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953740/p32929-Portfolio/kxflwu40pru47b6tumad.jpg",
                     "desc": "50+ poems of Jibanananda Das with audio recitation",
                 },
                 {
                     "title": "MathLover (Simple, Infinite, Math game)",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/mathlover",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953741/p32929-Portfolio/skcqwayohqyw0wqposbx.png",
                     "desc": "MathLover is a simple, infinite mathematical problem solving game for everyone.",
                 },
@@ -637,6 +651,7 @@ class DynamicValues {
                 },
                 {
                     "title": "BirthdayBot",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/birthdaybot",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953742/p32929-Portfolio/m1erhymltnig4op00hov.png",
                     "desc": "Birthday wishing apps, made for individual people...",
                 },
