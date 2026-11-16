@@ -679,6 +679,12 @@ class DynamicValues {
             "text": "Desktop Apps",
             "arr": [
                 {
+                    "title": "Boom",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/boom/icon.png",
+                    "desc": "Force quit every open app on your Mac in one click from the menu bar, or close everything and shut down. Finder and the Dock stay safe",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/boom"
+                },
+                {
                     "title": "Oxru",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/oxru/icon.png",
                     "desc": "Lightweight code editor for the terminal or its own window, with all of a project's terminals inside it. Uses a fraction of VS Code's memory",
@@ -725,6 +731,18 @@ class DynamicValues {
         {
             "text": "Command Line Interfaces ( CLIs )",
             "arr": [
+                {
+                    "title": "oaifai",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/oaifai/icon.png",
+                    "desc": "Connect Ubuntu Server to WiFi from a simple terminal list, without NetworkManager or hand-written netplan files. Rolls back if it fails",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/oaifai"
+                },
+                {
+                    "title": "cccsss",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/cccsss/icon.png",
+                    "desc": "Browse your Claude Code sessions in the terminal, read any of them, and resume one with the exact command. Zero dependencies",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/cccsss"
+                },
                 {
                     "title": "HeartCode",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/heartcode/icon.png",
