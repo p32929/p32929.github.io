@@ -1,108 +1,71 @@
 # p32929.github.io
 
-The 3rd iteration of my personal portfolio — a single-page developer portfolio built with React, TypeScript, Vite and shadcn/ui. Every bit of content lives in one file, so you can fork it and make it yours quickly.
+My personal developer portfolio, live at **https://p32929.github.io/**. It is a single page that shows who I am, my skills and all my projects, with each project linked to its page on OpenStore.
 
-**Live:** https://p32929.github.io/
+The nice part if you want your own: every piece of content lives in one file, `src/lib/DynamicValues.ts`. Fork it, change that one file, and you have a portfolio, with no backend and free hosting on GitHub Pages.
+
+## Screenshots
+
+### Desktop
+
+![Desktop view](https://github.com/user-attachments/assets/c72b290f-39e5-4dc5-a395-db53ae4c7ff6)
+
+### Tablet
+
+![Tablet view](https://github.com/user-attachments/assets/73cbd733-6e36-4efe-8fb8-93309b58a2df)
+
+### Mobile
+
+![Mobile view](https://github.com/user-attachments/assets/0667a45b-b81b-46a2-846c-51fd8cb58c81)
 
 ## Features
 
-- **One file to edit** — all your data, routes and links live in `src/lib/DynamicValues.ts`
-- **Themeable** — colours and design come from `src/index.css`
-- **shadcn/ui + Tailwind** components, dark mode included
-- **Responsive** — desktop, tablet and mobile layouts (screenshots below)
-- **Deploys to GitHub Pages** with two commands
+1. **One file to edit:** your details, sections, projects and links are all in `src/lib/DynamicValues.ts`.
+2. **Easy to restyle:** colours and design come from `src/index.css`.
+3. **Light and dark mode,** built with shadcn/ui and Tailwind.
+4. **Works on every screen:** desktop, tablet and phone.
+5. **Free hosting:** deploys to GitHub Pages with two commands.
+6. **Share and support pages** for your READMEs: `/share/?repo=<name>` and `/support/`.
 
-# Screenshots
+## Make your own portfolio
 
-## Desktop View
-![image](https://github.com/user-attachments/assets/c72b290f-39e5-4dc5-a395-db53ae4c7ff6)
+You need Node.js and npm ([download](https://nodejs.org/en/download/)).
 
-## Tablet View
-![image](https://github.com/user-attachments/assets/73cbd733-6e36-4efe-8fb8-93309b58a2df)
+1. Fork this repository.
+2. In the fork's settings, rename it to `your-github-username.github.io`.
+3. Clone it: `git clone YOUR-REPOSITORY-URL`
+4. Put your own data in `src/lib/DynamicValues.ts`.
+5. Build it: `npm run predeploy`
+6. Publish it: `npm run deploy`
+7. In the repository settings, under Pages, set the source to the `master` branch.
 
-## Mobile View
-![image](https://github.com/user-attachments/assets/0667a45b-b81b-46a2-846c-51fd8cb58c81)
+Your portfolio is then live at `https://your-github-username.github.io/`. GitHub usually takes 3 to 5 minutes to publish. If it still doesn't show, run steps 5 and 6 again.
 
-# Create your own portfolio
+## Run it on your computer
 
-1. Fork the repository ( Recommended )
-2. Change the repository name to `your-github-username.github.io` by going into settings
-3. Clone the repository using `git clone YOUR-REPOSITORY-URL`
-4. Modify the variables in `./src/lib/DynamicValues.ts` to add your own data and flavors.
-5. Run: `npm run predeploy` or `yarn predeploy`
-6. Run: `npm run deploy` or `yarn deploy`
-7. Check the `settings` of your repository, and change the `source` of the github pages to `master` branch
+1. Clone the repository.
+2. Install: `npm install`
+3. Start: `npm run dev`
+4. Open `http://localhost:3000` in your browser.
 
-& Volla!! Now, you can check your portfolio LIVE version in the `homepage` URL (`https://your-github-username.github.io/`). Github may take a while to update the `github page` into your `homepage` URL.
+## Older versions
 
-If it still doesn't show, do step 5 & 6 again. It usually takes 3-5 minutes for github pages to deploy the changes.
+1. V1: https://p32929.github.io/portfolio-v1/ (source: https://github.com/p32929/portfolio-v1)
+2. V2: https://p32929.github.io/portfolio-v2/ (source: https://github.com/p32929/portfolio-v2)
+3. V3, the current one: https://p32929.github.io/ (this repository)
 
-## Prerequisites
-You need to have `NodeJS` and `NPM` installed in your computer.
-If you don't have them installed, install them from here: https://nodejs.org/en/download/
+## License
 
-# Run the project
+MIT License. Copyright (c) 2024 Fayaz Bin Salam. See [LICENSE](LICENSE) for the full text.
 
-1. Fork the repository ( Recommended )
-2. Clone your forked repository using `git clone YOUR-REPOSITORY-URL`
-3. Install all the dependencies using this command:
-   `npm install` or `yarn`
-4. Run the project using this command:
-   `npm run dev` or `yarn dev`
-5. Open `localhost:3000` on your favorite browser
+## Contributing
 
-# How to customize
-* Customize themes/colors/design: modify `./src/index.css` file
-* Customize data/routes/anything else: modify `./src/lib/DynamicValues.ts` file
-
-# Contribute
-
-Thank you for your interest in contributing to this project. Please note that I prefer to be the sole contributor to this repository and will not be accepting any pull requests at the moment. While I appreciate the thought and effort to contribute, I kindly ask that you refrain from submitting pull requests.
-
-If you have any suggestions, feedback, or issues, feel free to open an issue on this repository. I'm always open to discussions and improvements through this channel.
-
-Thanks
+Contributions are very welcome, thank you! Before you start on a pull request, please open an issue and tell me what you would like to add or change. That way we can agree on it first, and your time is not wasted on something that might not fit.
 
 ## Share
 
-Sharing this repository with your friends is just one click away from here
+<a href="https://p32929.github.io/share/?repo=p32929.github.io"><img src="https://p32929.github.io/readme/share.svg" alt="Share this with your friends in just a click" width="420"></a>
 
-[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/p32929.github.io/)
-[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/p32929.github.io/)
-[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/p32929.github.io/)
-[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/p32929.github.io/)
-[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/p32929.github.io/)
-[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/p32929.github.io/)
-[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/p32929.github.io/)
-[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/p32929.github.io/)
+## Support
 
-# Support
-
-[![buymeacoffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/p32929)
-
-# All my portfolio websites:
-
-Looking for one of my previous portfolio website / source code? Here's the list:
-
-V1: https://p32929.github.io/portfolio-v1/ ( Source: https://github.com/p32929/portfolio-v1 )
-
-V2: https://p32929.github.io/portfolio-v2/ ( Source: https://github.com/p32929/portfolio-v2 )
-
-Current ( V3 ) : https://p32929.github.io/ ( Source: https://github.com/p32929/p32929.github.io )
-
-<!-- hire-block -->
-
----
-
-## 💼 Using this at a company?
-
-I do fixed-price delivery work on my own projects. One invoice, one date, no hourly billing:
-
-| | |
-|---|---|
-| **White-label build** — this project rebranded, extended and deployed as yours | **$6,500** · 3 weeks |
-| **Custom app from scratch** on my own stack, signed and auto-updating | **$12,500** · 6 weeks |
-| **Production-hardening sprint** — 72 hours on this project, for your load and your security review | **$999** |
-| **Ongoing capacity** — one project-week of my time reserved every month | **$9,000 / month** |
-
-Full details → **[p32929.github.io/hire](https://p32929.github.io/hire/)** · Email **[fayazdevinbox@uberip.com](mailto:fayazdevinbox@uberip.com)** — scoping and quotes are free and I answer within one business day.
+<a href="https://p32929.github.io/support/"><img src="https://p32929.github.io/readme/support.svg" alt="If you like my works and want to support me, feel free to support" width="420"></a>
