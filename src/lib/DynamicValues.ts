@@ -377,6 +377,12 @@ class DynamicValues {
             "text": "Web Apps",
             "arr": [
                 {
+                    "title": "CodePresent",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/codepresent/icon.png",
+                    "desc": "Turn code into slide presentations and narrated videos in your browser. AI drafts the deck from a GitHub repo or ZIP, and your keys stay with you",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/codepresent"
+                },
+                {
                     "title": "Lantern",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/lantern/icon.png",
                     "desc": "Self-hosted Linux server dashboard. See status, CPU, memory and logs, restart services in one click, and use a terminal, all from one web page",
