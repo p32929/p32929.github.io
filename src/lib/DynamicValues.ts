@@ -377,6 +377,12 @@ class DynamicValues {
             "text": "Web Apps",
             "arr": [
                 {
+                    "title": "Lantern",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/lantern/icon.png",
+                    "desc": "Self-hosted Linux server dashboard. See status, CPU, memory and logs, restart services in one click, and use a terminal, all from one web page",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/lantern"
+                },
+                {
                     "title": "Duas",
                     "link": "https://openstore.pfay.workers.dev/app/p32929/duas",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953716/p32929-Portfolio/uxrwfhg48dvg4fvyulp2.png",
@@ -550,6 +556,12 @@ class DynamicValues {
             "text": "Android Apps",
             "arr": [
                 {
+                    "title": "LET - Life Events Tracker",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/let/icon.png",
+                    "desc": "Offline habit and life event tracker. Log habits, numbers and notes each day, then see your streaks, trends and patterns. Your data stays on your phone",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/let"
+                },
+                {
                     "title": "Al Quran by Quran Touch",
                     "link": "https://openstore.pfay.workers.dev/app/p32929/al-quran",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953730/p32929-Portfolio/wbqu2kumx4x1gflzyrwk.webp",
@@ -667,6 +679,18 @@ class DynamicValues {
             "text": "Desktop Apps",
             "arr": [
                 {
+                    "title": "Oxru",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/oxru/icon.png",
+                    "desc": "Lightweight code editor for the terminal or its own window, with all of a project's terminals inside it. Uses a fraction of VS Code's memory",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/oxru"
+                },
+                {
+                    "title": "ByteBroom",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/bytebroom/icon.png",
+                    "desc": "Mac disk cleaner that finds what is safe to delete, like old build folders, caches and leftover app files, and frees up space in a few clicks",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/bytebroom"
+                },
+                {
                     "title": "Roxaruu",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/roxaruu/icon.png",
                     "desc": "A keyboard-first code editor with terminals built in. Every shortcut is shown where it applies. On macOS, Windows, Linux and any browser",
@@ -701,6 +725,18 @@ class DynamicValues {
         {
             "text": "Command Line Interfaces ( CLIs )",
             "arr": [
+                {
+                    "title": "HeartCode",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/heartcode/icon.png",
+                    "desc": "Zero-dependency coding agent for your terminal. Works with any OpenAI-compatible model, free or local, and switches models when one fails",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/heartcode"
+                },
+                {
+                    "title": "opencc",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/opencc/icon.png",
+                    "desc": "Use Claude Code with free or local models. A zero-dependency proxy that sends it to any OpenAI-compatible API and switches models when one fails",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/opencc"
+                },
                 {
                     "title": "Shortcut Virus Remover",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953746/p32929-Portfolio/aokzrnxlpexmy7qikw4l.png",
@@ -866,6 +902,12 @@ class DynamicValues {
         {
             "text": "Extensions / Plugins / Addons",
             "arr": [
+                {
+                    "title": "tabrider example",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/tabrider-example/icon.png",
+                    "desc": "Example Chrome extension for tabrider, a Playwright-style browser automation library that runs inside your extension, in your real browser",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/tabrider-example"
+                },
                 {
                     "title": "vscode nvim leave insertmode",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953773/p32929-Portfolio/jh0hcuo6bd9b4hexr3un.png",
