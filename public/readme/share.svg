@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="96" viewBox="0 0 640 96" role="img" aria-label="Share this with your friends in just a click">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="96" rx="20" fill="url(#g)"/>
+  <circle cx="56" cy="48" r="26" fill="#ffffff" fill-opacity="0.18"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="64" cy="37" r="5.5"/>
+    <circle cx="46" cy="48" r="5.5"/>
+    <circle cx="64" cy="59" r="5.5"/>
+    <path d="M51 45.2 59.2 39.8M51 50.8 59.2 56.2"/>
+  </g>
+  <text x="100" y="43" font-family="system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="25" font-weight="700" fill="#ffffff">Share this with your friends</text>
+  <text x="100" y="70" font-family="system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="17" fill="#ffffff" fill-opacity="0.88">In just a click: Facebook, X, LinkedIn, WhatsApp and more</text>
+  <path d="M598 38l10 10-10 10" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
