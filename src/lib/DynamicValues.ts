@@ -377,6 +377,18 @@ class DynamicValues {
             "text": "Web Apps",
             "arr": [
                 {
+                    "title": "Portfolio v2",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/portfolio-v2/icon.png",
+                    "desc": "Free developer portfolio template. Fork it, put your details in one file and publish it on GitHub Pages for free, with no backend",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/portfolio-v2"
+                },
+                {
+                    "title": "Portfolio v1",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/portfolio-v1/icon.png",
+                    "desc": "Free single-page developer portfolio template made with React and Material UI. Edit five small files and publish it on GitHub Pages",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/portfolio-v1"
+                },
+                {
                     "title": "CodePresent",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/codepresent/icon.png",
                     "desc": "Turn code into slide presentations and narrated videos in your browser. AI drafts the deck from a GitHub repo or ZIP, and your keys stay with you",
