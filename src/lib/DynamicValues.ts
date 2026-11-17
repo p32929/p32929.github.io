@@ -377,12 +377,6 @@ class DynamicValues {
             "text": "Web Apps",
             "arr": [
                 {
-                    "title": "My Workout Tracker",
-                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/my-workout-tracker/icon.png",
-                    "desc": "Free workout tracker with no paywall, no account and no internet needed. Log your sets, see your training days and watch your progress",
-                    "link": "https://openstore.pfay.workers.dev/app/p32929/my-workout-tracker"
-                },
-                {
                     "title": "CodePresent",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/codepresent/icon.png",
                     "desc": "Turn code into slide presentations and narrated videos in your browser. AI drafts the deck from a GitHub repo or ZIP, and your keys stay with you",
@@ -567,6 +561,12 @@ class DynamicValues {
         {
             "text": "Android Apps",
             "arr": [
+                {
+                    "title": "My Workout Tracker",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/my-workout-tracker/icon.png",
+                    "desc": "Free workout tracker for Android and iPhone with no paywall, no account and no internet needed. Log your sets, see your training days and watch your progress",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/my-workout-tracker"
+                },
                 {
                     "title": "LET - Life Events Tracker",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/let/icon.png",
