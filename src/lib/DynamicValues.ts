@@ -377,13 +377,19 @@ class DynamicValues {
             "text": "Web Apps",
             "arr": [
                 {
-                    "title": "Portfolio v2",
+                    "title": "Fayaz Bin Salam Portfolio v3",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/portfolio-v3/icon.png",
+                    "desc": "Free developer portfolio template with light and dark mode. Change one file to make it yours and publish it on GitHub Pages, no backend needed",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/portfolio-v3"
+                },
+                {
+                    "title": "Fayaz Bin Salam Portfolio v2",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/portfolio-v2/icon.png",
                     "desc": "Free developer portfolio template. Fork it, put your details in one file and publish it on GitHub Pages for free, with no backend",
                     "link": "https://openstore.pfay.workers.dev/app/p32929/portfolio-v2"
                 },
                 {
-                    "title": "Portfolio v1",
+                    "title": "Fayaz Bin Salam Portfolio v1",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/portfolio-v1/icon.png",
                     "desc": "My very first React project, a simple developer portfolio template from 2018. Kept as history. Edit five small files and publish it on GitHub Pages",
                     "link": "https://openstore.pfay.workers.dev/app/p32929/portfolio-v1"
