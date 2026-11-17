@@ -385,7 +385,7 @@ class DynamicValues {
                 {
                     "title": "Portfolio v1",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/portfolio-v1/icon.png",
-                    "desc": "Free single-page developer portfolio template made with React and Material UI. Edit five small files and publish it on GitHub Pages",
+                    "desc": "My very first React project, a simple developer portfolio template from 2018. Kept as history. Edit five small files and publish it on GitHub Pages",
                     "link": "https://openstore.pfay.workers.dev/app/p32929/portfolio-v1"
                 },
                 {
