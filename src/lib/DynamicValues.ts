@@ -377,6 +377,12 @@ class DynamicValues {
             "text": "Web Apps",
             "arr": [
                 {
+                    "title": "FirstPage",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/firstpage/icon.png",
+                    "desc": "Simple browser homepage with only your own links. Add a site once and it is one click away every time, saved in your browser with no account",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/firstpage"
+                },
+                {
                     "title": "Fayaz Bin Salam Portfolio v3",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/portfolio-v3/icon.png",
                     "desc": "Free developer portfolio template with light and dark mode. Change one file to make it yours and publish it on GitHub Pages, no backend needed",
