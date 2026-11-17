@@ -887,6 +887,12 @@ class DynamicValues {
                     "link": "https://openstore.pfay.workers.dev/app/p32929/office-about"
                 },
                 {
+                    "title": "MaterialOfficeAbout",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/material-office-about/icon.svg",
+                    "desc": "Older Java version of Office About. A Material Design About Us screen for Android team apps, loaded from one JSON file you host",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/material-office-about"
+                },
+                {
                     "title": "Json Viewer Android",
                     "logo": "https://res.cloudinary.com/p32929/image/upload/v1759953765/p32929-Portfolio/fgofi32tp4elpw3v5ns1.svg",
                     "desc": "A simple JSON Viewer for Android"
