@@ -562,6 +562,12 @@ class DynamicValues {
             "text": "Android Apps",
             "arr": [
                 {
+                    "title": "Mephisto Chess",
+                    "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/mephisto-chess/icon.png",
+                    "desc": "Offline chess app that plays against you and teaches you while you play. A teacher mode, lessons, 81 puzzles and 9 skill levels, with no ads or account",
+                    "link": "https://openstore.pfay.workers.dev/app/p32929/mephisto-chess"
+                },
+                {
                     "title": "My Workout Tracker",
                     "logo": "https://raw.githubusercontent.com/p32929/p32929_openstore/main/screenshots/my-workout-tracker/icon.png",
                     "desc": "Free workout tracker for Android and iPhone with no paywall, no account and no internet needed. Log your sets, see your training days and watch your progress",
